@@ -1,38 +1,236 @@
-.App {
-  text-align: center;
+.light_grey_bg{
+  background-color: #f1f1f1 !important;
+  height: 100vh;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.accordian_grey_bg{
+  background-color: #E0DEDE;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.blue_shadow {
+  box-shadow: 0px 0px 5px 2px #00000040;
+  width: 70vw;
 }
 
-.App-logo {
-  height: 40vmin;
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  width: 18px; 
+  height: 18px; 
+  border: 2px solid  #D9D9D9; 
+  border-radius: 50%;
+  
+
+}
+.check_bg input[type="checkbox"]{
+  background: #D9D9D9;
+}
+.low_opacity{
+  opacity: 0.4;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blue_text{
+  color: #0038FF;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header_text{
+  font-size: 18px;
 }
-
-.App-link {
-  color: #61dafb;
+.accordian_header{
+  font-size: 15px;
 }
+.bold{
+  font-weight: bold;
+}
+.label_text{
+  font-size: 13px !important;
+}
+.max_height{
+  height: 100vh;
+}
+.margin_box{
+  margin-top:7vh;
+  margin-bottom: 8vh;
+}
+.red_text{
+  color: #FF001C;
+  font-size: 9px;
+}
+.black_shadow{
+  box-shadow: 0px 0px 4px 0px #00000040;
+  border-radius: 20px;
+  background-color: white;
+}
+.grey_bg{
+  background-color: #f1f1f1;
+}
+.hide_date input {
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+  position: relative;
+  width: 100%;
+}
+.hide_date input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+.blue_border{
+  background:#0038FF;
+  height: 8px;
+  width: 60px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 10px;
+  justify-self: center;
+  
+  
+}
+.width_adjust{
+  width: 60vw;
+  
+}
+.dark_grey_bg{
+  background: #D9D9D9;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.blue_bg{
+  background-color: #0038FF !important;
+  color: white !important;
+
+}
+.border_top{
+  background:#0038FF;
+  height: 8px;
+  width: 90%;
+}
+.hide_date{
+  position: relative;
+}
+.floating_div{
+  position: absolute;
+  top: 0;
+  padding-top: 5%;
+  bottom: 7%;
+  left: 3%;
+  width: 70%;
+  background-color: white;
+  border: 1px solid #CFCFCF;
+  border-radius: 10px;
+}
+.dateselection_div{
+  position: absolute;
+  padding: 1%;
+  bottom: 0%;
+  left: 0;
+  width: 20%;
+  background-color: white;
+  border: 1px solid #CFCFCF;
+  border-radius: 10px;
+}
+.inner_position{
+  position: absolute;
+  top:5%;
+  bottom: 0;
+  width: 35%;
+  left: 27%;
+}
+.inner_team_position{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 70%;
+  left: 100%;
+}
+.pointer{
+  cursor: pointer;
+}
+.inner_efficiency_position{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 40%;
+ border-left: 1px  #f0f0f0 solid;
+  left: 170%;
+}
+.search_position{
+  position: absolute !important;
+  top: 0;
+  left: 3%;
+  z-index: 1;
+  width: 70% !important;
+}
+.scroll_auto{
+  overflow: auto;
+}
+.fixed_width{
+  width: 25%;
+  padding-left: 2%;
+}
+.light_grey{
+  color: rgb(95, 92, 92);
+}
+.ml{
+  margin-left: 10px;
+}
+.text-left{
+  text-align: left !important;
+}
+.hover_blue:hover{
+   background: #E5EBFF;
+}
+.fixed_blue{
+  background: #E5EBFF;
+}
+.rdtDay:hover{
+background-color:#abbcf5;
+}
+.rdtPicker table{
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 2px #00000040;
+  background-color:lightgrey;
+}
+.rdt{
+  margin-left: 4%;
+  margin-bottom: 5%;
+}
+.grey_font{
+  color: #686868;
+
+}
+.text_red{
+  color: red;
+}
+.center_card{
+  padding-bottom: 10px;
+  width: 25%;
+  height: 30%;
+  box-shadow: 0px 0px 5px 2px #00000040;
+}
+.btn_width{
+  width: 100px;
+  font-weight: bold;
+}.paddi_t{
+  padding-top: 20vh;
+}
+.custom-tooltip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
 }

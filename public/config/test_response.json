@@ -1,0 +1,1682 @@
+{
+"medical_record": {
+    "Medical Record Review Services" : [
+        {"label" : "Medical chronology (include free add-ons)","disable_id":[5,7,8],"checked_id":[1],"p_id":1},
+        {"label" : "Narrative Summary (include free add-ons)","disable_id":[5,7,8],"checked_id":[2],"p_id":2},
+        {"label" : "Deposition Summary","disable_id":[5,7,8],"checked_id":[3],"p_id":3},
+        {"label" : "Demand letter","disable_id":[5,7,8],"checked_id":[4],"p_id":4},
+        {"label" : "Sorting & Indexing","disable_id":[1,3,9,7,2,10,8,4],"checked_id":[5],"p_id":5},
+        {"label" : "Medical Record Retrieval","disable_id":[],"checked_id":[6],"p_id":6}, 
+        {"label" : "APS Summary","disable_id":[1,3,9,5,2,10,8,4],"checked_id":[7],"p_id":7},
+        {"label" : "Life Care Planning","disable_id":[1,3,9,5,7,2,10,4],"checked_id":[8],"p_id":8},
+        {"label" : "Expert Medical Opinion","disable_id":[5,7,8],"checked_id":[9],"p_id":9},
+        {"label" : "Medical Billing Summary","disable_id":[5,7,8],"checked_id":[10],"p_id":10}
+    ],
+    "Special Reports (Optional)" : [
+        {"label" : "Treatment Timeline","disable_id":[3,9,5,7,4,10,6,8],"checked_id":[1,2],"free":true},
+        {"label" : "Medical synopsise","disable_id":[3,9,5,7,4,10,6,8],"checked_id":[]},
+        {"label" : "Med-A-Word","disable_id":[3,9,5,7,2,4,10,6,8,1],"checked_id":[]},
+        {"label" : "Special Injury Report","disable_id":[3,5,7,4,10,6,8],"checked_id":[]},
+        {"label" : "Missing Record Identification","disable_id":[5,6],"checked_id":[1,3,9,7,2,4,10,8],"free":true},
+        {"label" : "Pain & Suffering Chart","disable_id":[3,5,7,4,10,6,8],"checked_id":[]},
+        {"label" : "Future Medical Cost Projection","disable_id":[3,5,7,4,6],"checked_id":[]},
+        {"label" : "Strength & Weakness Report","disable_id":[3,5,7,4,10,6,8],"checked_id":[]}
+    ],
+    "Technical Services (Optional)" : [
+        {"label" : "Indexing","disable_id":[3,9,5,7,4,10,6,8],"checked_id":[1],"free":true},
+        {"label" : "Duplicate Record Identification","disable_id":[3,9,5,7,4,6,8],"checked_id":[]},
+        {"label" : "Bookmarking","disable_id":[3,9,5,7,2,4,10,6,8],"checked_id":[]},
+        {"label" : "Other Language Translation","disable_id":[5,10],"checked_id":[]},
+        {"label" : "Sorting","disable_id":[3,9,5,7,4,10,6,8],"checked_id":[],"free":true},
+        {"label" : "Duplicate Record Extraction","disable_id":[3,9,5,7,4,6,8],"checked_id":[]},
+        {"label" : "Other Patient Record Extraction","disable_id":[5],"checked_id":[1,3,9,7,2,4,10,6,8]},
+        {"label" : "Hyperlinks","disable_id":[3,9,5,7,4,8],"checked_id":[1],"free":true}
+    ]
+},
+"total_chart_record":{
+"Current Record" : {
+    "clients":{
+        "LDTM001": [
+          {"cases": 10, "pages": 25, "billed_hours": 32, "billed_amount": 26, "quality_score": 23, "date": "01-11-2023"},
+          {"cases": 20, "pages": 20, "billed_hours": 18, "billed_amount": 20, "quality_score": 28, "date": "02-11-2023"},
+          {"cases": 30, "pages": 38, "billed_hours": 50, "billed_amount": 20, "quality_score": 25, "date": "03-11-2023"},
+          {"cases": 85, "pages": 25, "billed_hours": 22, "billed_amount": 33, "quality_score": 20, "date": "04-11-2023"},
+          {"cases": 40, "pages": 32, "billed_hours": 10, "billed_amount": 15, "quality_score": 25, "date": "05-11-2023"},
+          {"cases": 35, "pages": 50, "billed_hours": 28, "billed_amount": 20, "quality_score": 22, "date": "06-11-2023"},
+          {"cases": 32, "pages": 65, "billed_hours": 8, "billed_amount": 28, "quality_score": 20, "date": "07-11-2023"},
+          {"cases": 42, "pages": 15, "billed_hours": 36, "billed_amount": 60, "quality_score": 27, "date": "08-11-2023"},
+          {"cases": 30, "pages": 10, "billed_hours": 23, "billed_amount": 42, "quality_score": 10, "date": "09-11-2023"},
+          {"cases": 35, "pages": 22, "billed_hours": 33, "billed_amount": 45, "quality_score": 25, "date": "10-11-2023"}
+        ],
+        "LDTM002": [
+          {"cases": 30, "pages": 25, "billed_hours": 22, "billed_amount": 32, "quality_score": 30, "date": "01-11-2023"},
+          {"cases": 40, "pages": 40, "billed_hours": 28, "billed_amount": 16, "quality_score": 28, "date": "02-11-2023"},
+          {"cases": 35, "pages": 32, "billed_hours": 19, "billed_amount": 33, "quality_score": 35, "date": "03-11-2023"},
+          {"cases": 15, "pages": 25, "billed_hours": 8, "billed_amount": 28, "quality_score": 42, "date": "04-11-2023"},
+          {"cases": 42, "pages": 20, "billed_hours": 36, "billed_amount": 20, "quality_score": 37, "date": "05-11-2023"},
+          {"cases": 30, "pages": 10, "billed_hours": 23, "billed_amount": 42, "quality_score": 10, "date": "06-11-2023"},
+          {"cases": 33, "pages": 18, "billed_hours": 50, "billed_amount": 15, "quality_score": 35, "date": "07-11-2023"},
+          {"cases": 40, "pages": 25, "billed_hours": 40, "billed_amount": 20, "quality_score": 20, "date": "08-11-2023"},
+          {"cases": 35, "pages": 25, "billed_hours": 32, "billed_amount": 18, "quality_score": 25, "date": "09-11-2023"},
+          {"cases": 38, "pages": 30, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "10-11-2023"}
+        ],
+        "LDTM003": [
+          {"cases": 20, "pages": 23, "billed_hours": 40, "billed_amount": 21, "quality_score": 17, "date": "01-11-2023"},
+          {"cases": 35, "pages": 24, "billed_hours": 26, "billed_amount": 15, "quality_score": 18, "date": "02-11-2023"},
+          {"cases": 35, "pages": 20, "billed_hours": 22, "billed_amount": 10, "quality_score": 25, "date": "03-11-2023"},
+          {"cases": 35, "pages": 30, "billed_hours": 25, "billed_amount": 12, "quality_score": 10, "date": "04-11-2023"},
+          {"cases": 42, "pages": 10, "billed_hours": 22, "billed_amount": 33, "quality_score": 15, "date": "05-11-2023"},
+          {"cases": 45, "pages": 35, "billed_hours": 10, "billed_amount": 15, "quality_score": 10, "date": "06-11-2023"},
+          {"cases": 36, "pages": 15, "billed_hours": 28, "billed_amount": 40, "quality_score": 25, "date": "07-11-2023"},
+          {"cases": 30, "pages": 22, "billed_hours": 33, "billed_amount": 18, "quality_score": 10, "date": "08-11-2023"},
+          {"cases": 45, "pages": 10, "billed_hours": 25, "billed_amount": 30, "quality_score": 35, "date": "09-11-2023"},
+          {"cases": 40, "pages": 50, "billed_hours": 20, "billed_amount": 10, "quality_score": 48, "date": "10-11-2023"}
+        ],
+        "LDTM004": [
+          {"cases": 13, "pages": 18, "billed_hours": 24, "billed_amount": 36, "quality_score": 30, "date": "01-11-2023"},
+          {"cases": 45, "pages": 10, "billed_hours": 17, "billed_amount": 40, "quality_score": 20, "date": "02-11-2023"},
+          {"cases": 35, "pages": 32, "billed_hours": 8, "billed_amount": 22, "quality_score": 28, "date": "03-11-2023"},
+          {"cases": 25, "pages": 40, "billed_hours": 30, "billed_amount": 15, "quality_score": 42, "date": "04-11-2023"},
+          {"cases": 25, "pages": 15, "billed_hours": 45, "billed_amount": 30, "quality_score": 27, "date": "05-11-2023"},
+          {"cases": 38, "pages": 15, "billed_hours": 28, "billed_amount": 20, "quality_score": 10, "date": "06-11-2023"},
+          {"cases": 42, "pages": 30, "billed_hours": 22, "billed_amount": 33, "quality_score": 25, "date": "07-11-2023"},
+          {"cases": 28, "pages": 22, "billed_hours": 36, "billed_amount": 18, "quality_score": 20, "date": "08-11-2023"},
+          {"cases": 48, "pages": 10, "billed_hours": 10, "billed_amount": 25, "quality_score": 35, "date": "09-11-2023"},
+          {"cases": 30, "pages": 18, "billed_hours": 40, "billed_amount": 20, "quality_score": 25, "date": "10-11-2023"}
+        ],
+        "LDTM005": [
+          {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 50, "date": "01-11-2023"},
+          {"cases": 20, "pages": 50, "billed_hours": 25, "billed_amount": 30, "quality_score": 68, "date": "02-11-2023"},
+          {"cases": 28, "pages": 15, "billed_hours": 8, "billed_amount": 15, "quality_score": 25, "date": "03-11-2023"},
+          {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 20, "quality_score": 50, "date": "04-11-2023"},
+          {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+          {"cases": 40, "pages": 35, "billed_hours": 10, "billed_amount": 15, "quality_score": 20, "date": "06-11-2023"},
+          {"cases": 28, "pages": 50, "billed_hours": 15, "billed_amount": 40, "quality_score": 25, "date": "07-11-2023"},
+          {"cases": 35, "pages": 40, "billed_hours": 28, "billed_amount": 18, "quality_score": 30, "date": "08-11-2023"},
+          {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 25, "quality_score": 35, "date": "09-11-2023"},
+          {"cases": 45, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 48, "date": "10-11-2023"}
+        ]
+      },
+      "employees":{
+        "Tech Phantoms" : {
+            "shakthi":[
+        {"cases": 25, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 20, "date": "01-11-2023"},
+        {"cases": 20, "pages": 50, "billed_hours": 25, "billed_amount": 30, "quality_score": 38, "date": "02-11-2023"},
+        {"cases": 25, "pages": 15, "billed_hours": 8, "billed_amount": 15, "quality_score": 25, "date": "03-11-2023"},
+        {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 20, "quality_score": 27, "date": "04-11-2023"},
+        {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+        {"cases": 40, "pages": 35, "billed_hours": 10, "billed_amount": 15, "quality_score": 23, "date": "06-11-2023"},
+        {"cases": 28, "pages": 29, "billed_hours": 15, "billed_amount": 40, "quality_score": 35, "date": "07-11-2023"},
+        {"cases": 35, "pages": 40, "billed_hours": 28, "billed_amount": 18, "quality_score": 15, "date": "08-11-2023"},
+        {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 25, "quality_score": 35, "date": "09-11-2023"},
+        {"cases": 45, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 18, "date": "10-11-2023"}
+      ],
+        "Ramya":[
+          {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 50, "date": "01-11-2023"},
+          {"cases": 20, "pages": 50, "billed_hours": 25, "billed_amount": 30, "quality_score": 68, "date": "02-11-2023"},
+          {"cases": 28, "pages": 15, "billed_hours": 18, "billed_amount": 15, "quality_score": 25, "date": "03-11-2023"},
+          {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 20, "quality_score": 50, "date": "04-11-2023"},
+          {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+          {"cases": 40, "pages": 35, "billed_hours": 10, "billed_amount": 5, "quality_score": 30, "date": "06-11-2023"},
+          {"cases": 28, "pages": 50, "billed_hours": 15, "billed_amount": 40, "quality_score": 55, "date": "07-11-2023"},
+          {"cases": 35, "pages": 40, "billed_hours": 28, "billed_amount": 18, "quality_score": 30, "date": "08-11-2023"},
+          {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 25, "quality_score": 35, "date": "09-11-2023"},
+          {"cases": 45, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 48, "date": "10-11-2023"}
+        ],
+        "Ani":[
+          {"cases": 30, "pages": 25, "billed_hours": 22, "billed_amount": 32, "quality_score": 30, "date": "01-11-2023"},
+          {"cases": 40, "pages": 40, "billed_hours": 28, "billed_amount": 16, "quality_score": 28, "date": "02-11-2023"},
+          {"cases": 35, "pages": 32, "billed_hours": 19, "billed_amount": 33, "quality_score": 35, "date": "03-11-2023"},
+          {"cases": 15, "pages": 25, "billed_hours": 8, "billed_amount": 28, "quality_score": 42, "date": "04-11-2023"},
+          {"cases": 42, "pages": 20, "billed_hours": 36, "billed_amount": 20, "quality_score": 37, "date": "05-11-2023"},
+          {"cases": 30, "pages": 10, "billed_hours": 23, "billed_amount": 42, "quality_score": 10, "date": "06-11-2023"},
+          {"cases": 33, "pages": 18, "billed_hours": 50, "billed_amount": 15, "quality_score": 35, "date": "07-11-2023"},
+          {"cases": 40, "pages": 25, "billed_hours": 40, "billed_amount": 20, "quality_score": 20, "date": "08-11-2023"},
+          {"cases": 35, "pages": 45, "billed_hours": 32, "billed_amount": 18, "quality_score": 25, "date": "09-11-2023"},
+          {"cases": 38, "pages": 30, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "10-11-2023"}
+        ]
+        
+    },
+        "Med-Net Elites" : {   
+          "Arun":[
+          {"cases": 30, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 20, "date": "01-11-2023"},
+          {"cases": 20, "pages": 20, "billed_hours": 25, "billed_amount": 30, "quality_score": 38, "date": "02-11-2023"},
+          {"cases": 25, "pages": 15, "billed_hours": 8, "billed_amount": 15, "quality_score": 25, "date": "03-11-2023"},
+          {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 20, "quality_score": 27, "date": "04-11-2023"},
+          {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+          {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 15, "quality_score": 23, "date": "06-11-2023"},
+          {"cases": 28, "pages": 29, "billed_hours": 15, "billed_amount": 40, "quality_score": 35, "date": "07-11-2023"},
+          {"cases": 35, "pages": 20, "billed_hours": 28, "billed_amount": 18, "quality_score": 15, "date": "08-11-2023"},
+          {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 25, "quality_score": 35, "date": "09-11-2023"},
+          {"cases": 45, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 18, "date": "10-11-2023"}],
+          "Nick":[
+            {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 50, "date": "01-11-2023"},
+            {"cases": 20, "pages": 20, "billed_hours": 25, "billed_amount": 30, "quality_score": 68, "date": "02-11-2023"},
+            {"cases": 28, "pages": 15, "billed_hours": 18, "billed_amount": 25, "quality_score": 25, "date": "03-11-2023"},
+            {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 20, "quality_score": 50, "date": "04-11-2023"},
+            {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+            {"cases": 40, "pages": 35, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "06-11-2023"},
+            {"cases": 28, "pages": 10, "billed_hours": 15, "billed_amount": 40, "quality_score": 55, "date": "07-11-2023"},
+            {"cases": 35, "pages": 40, "billed_hours": 28, "billed_amount": 18, "quality_score": 30, "date": "08-11-2023"},
+            {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 45, "quality_score": 35, "date": "09-11-2023"},
+            {"cases": 45, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 48, "date": "10-11-2023"}
+          ],
+          "Nijo":[
+            {"cases": 30, "pages": 25, "billed_hours": 22, "billed_amount": 32, "quality_score": 30, "date": "01-11-2023"},
+            {"cases": 40, "pages": 40, "billed_hours": 28, "billed_amount": 16, "quality_score": 28, "date": "02-11-2023"},
+            {"cases": 35, "pages": 32, "billed_hours": 19, "billed_amount": 33, "quality_score": 35, "date": "03-11-2023"},
+            {"cases": 15, "pages": 25, "billed_hours": 8, "billed_amount": 18, "quality_score": 42, "date": "04-11-2023"},
+            {"cases": 42, "pages": 20, "billed_hours": 36, "billed_amount": 20, "quality_score": 37, "date": "05-11-2023"},
+            {"cases": 20, "pages": 10, "billed_hours": 23, "billed_amount": 42, "quality_score": 10, "date": "06-11-2023"},
+            {"cases": 33, "pages": 18, "billed_hours": 20, "billed_amount": 15, "quality_score": 35, "date": "07-11-2023"},
+            {"cases": 40, "pages": 25, "billed_hours": 40, "billed_amount": 20, "quality_score": 20, "date": "08-11-2023"},
+            {"cases": 35, "pages": 15, "billed_hours": 32, "billed_amount": 18, "quality_score": 25, "date": "09-11-2023"},
+            {"cases": 38, "pages": 30, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "10-11-2023"}
+          ]
+        },
+        "Firebirds" :{
+          "Benisha":[
+            {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 20, "date": "01-11-2023"},
+            {"cases": 20, "pages": 40, "billed_hours": 25, "billed_amount": 30, "quality_score": 38, "date": "02-11-2023"},
+            {"cases": 25, "pages": 15, "billed_hours": 8, "billed_amount": 15, "quality_score": 25, "date": "03-11-2023"},
+            {"cases": 18, "pages": 22, "billed_hours": 12, "billed_amount": 20, "quality_score": 27, "date": "04-11-2023"},
+            {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+            {"cases": 20, "pages": 25, "billed_hours": 10, "billed_amount": 15, "quality_score": 23, "date": "06-11-2023"},
+            {"cases": 28, "pages": 29, "billed_hours": 15, "billed_amount": 40, "quality_score": 35, "date": "07-11-2023"},
+            {"cases": 35, "pages": 20, "billed_hours": 28, "billed_amount": 18, "quality_score": 15, "date": "08-11-2023"},
+            {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 25, "quality_score": 35, "date": "09-11-2023"},
+            {"cases": 25, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 18, "date": "10-11-2023"}],
+            "Nisha":[
+              {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 50, "date": "01-11-2023"},
+              {"cases": 20, "pages": 20, "billed_hours": 25, "billed_amount": 30, "quality_score": 68, "date": "02-11-2023"},
+              {"cases": 28, "pages": 15, "billed_hours": 18, "billed_amount": 25, "quality_score": 25, "date": "03-11-2023"},
+              {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 20, "quality_score": 50, "date": "04-11-2023"},
+              {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+              {"cases": 40, "pages": 35, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "06-11-2023"},
+              {"cases": 28, "pages": 10, "billed_hours": 15, "billed_amount": 40, "quality_score": 55, "date": "07-11-2023"},
+              {"cases": 15, "pages": 40, "billed_hours": 28, "billed_amount": 18, "quality_score": 30, "date": "08-11-2023"},
+              {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 45, "quality_score": 35, "date": "09-11-2023"},
+              {"cases": 55, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 48, "date": "10-11-2023"}
+            ],
+            "Varun":[
+              {"cases": 20, "pages": 15, "billed_hours": 42, "billed_amount": 32, "quality_score": 30, "date": "01-11-2023"},
+              {"cases": 40, "pages": 40, "billed_hours": 28, "billed_amount": 16, "quality_score": 28, "date": "02-11-2023"},
+              {"cases": 35, "pages": 32, "billed_hours": 19, "billed_amount": 33, "quality_score": 35, "date": "03-11-2023"},
+              {"cases": 15, "pages": 25, "billed_hours": 8, "billed_amount": 18, "quality_score": 42, "date": "04-11-2023"},
+              {"cases": 42, "pages": 20, "billed_hours": 36, "billed_amount": 20, "quality_score": 37, "date": "05-11-2023"},
+              {"cases": 20, "pages": 10, "billed_hours": 23, "billed_amount": 22, "quality_score": 10, "date": "06-11-2023"},
+              {"cases": 33, "pages": 18, "billed_hours": 20, "billed_amount": 15, "quality_score": 35, "date": "07-11-2023"},
+              {"cases": 40, "pages": 25, "billed_hours": 40, "billed_amount": 20, "quality_score": 20, "date": "08-11-2023"},
+              {"cases": 35, "pages": 65, "billed_hours": 32, "billed_amount": 18, "quality_score": 25, "date": "09-11-2023"},
+              {"cases": 18, "pages": 30, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "10-11-2023"}
+            ]
+        },
+        "Night Flyers" : {
+          "Derick":[
+            {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 20, "date": "01-11-2023"},
+            {"cases": 20, "pages": 40, "billed_hours": 25, "billed_amount": 30, "quality_score": 38, "date": "02-11-2023"},
+            {"cases": 15, "pages": 15, "billed_hours": 8, "billed_amount": 15, "quality_score": 25, "date": "03-11-2023"},
+            {"cases": 58, "pages": 22, "billed_hours": 12, "billed_amount": 20, "quality_score": 27, "date": "04-11-2023"},
+            {"cases": 30, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+            {"cases": 40, "pages": 25, "billed_hours": 20, "billed_amount": 15, "quality_score": 23, "date": "06-11-2023"},
+            {"cases": 28, "pages": 29, "billed_hours": 15, "billed_amount": 40, "quality_score": 35, "date": "07-11-2023"},
+            {"cases": 35, "pages": 20, "billed_hours": 28, "billed_amount": 18, "quality_score": 15, "date": "08-11-2023"},
+            {"cases": 10, "pages": 25, "billed_hours": 10, "billed_amount": 25, "quality_score": 25, "date": "09-11-2023"},
+            {"cases": 25, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 18, "date": "10-11-2023"}],
+            "Nisha":[
+              {"cases": 20, "pages": 10, "billed_hours": 40, "billed_amount": 18, "quality_score": 10, "date": "01-11-2023"},
+              {"cases": 20, "pages": 20, "billed_hours": 25, "billed_amount": 30, "quality_score": 68, "date": "02-11-2023"},
+              {"cases": 28, "pages": 15, "billed_hours": 18, "billed_amount": 25, "quality_score": 25, "date": "03-11-2023"},
+              {"cases": 18, "pages": 22, "billed_hours": 22, "billed_amount": 50, "quality_score": 50, "date": "04-11-2023"},
+              {"cases": 10, "pages": 18, "billed_hours": 33, "billed_amount": 10, "quality_score": 15, "date": "05-11-2023"},
+              {"cases": 40, "pages": 35, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "06-11-2023"},
+              {"cases": 18, "pages": 10, "billed_hours": 15, "billed_amount": 40, "quality_score": 55, "date": "07-11-2023"},
+              {"cases": 15, "pages": 40, "billed_hours": 28, "billed_amount": 18, "quality_score": 30, "date": "08-11-2023"},
+              {"cases": 40, "pages": 25, "billed_hours": 10, "billed_amount": 45, "quality_score": 35, "date": "09-11-2023"},
+              {"cases": 55, "pages": 30, "billed_hours": 20, "billed_amount": 30, "quality_score": 48, "date": "10-11-2023"}
+            ],
+            "Kamal":[
+              {"cases": 20, "pages": 15, "billed_hours": 42, "billed_amount": 32, "quality_score": 30, "date": "01-11-2023"},
+              {"cases": 10, "pages": 40, "billed_hours": 28, "billed_amount": 16, "quality_score": 28, "date": "02-11-2023"},
+              {"cases": 35, "pages": 32, "billed_hours": 19, "billed_amount": 33, "quality_score": 35, "date": "03-11-2023"},
+              {"cases": 15, "pages": 25, "billed_hours": 8, "billed_amount": 18, "quality_score": 42, "date": "04-11-2023"},
+              {"cases": 42, "pages": 20, "billed_hours": 36, "billed_amount": 20, "quality_score": 37, "date": "05-11-2023"},
+              {"cases": 20, "pages": 10, "billed_hours": 23, "billed_amount": 42, "quality_score": 10, "date": "06-11-2023"},
+              {"cases": 33, "pages": 18, "billed_hours": 20, "billed_amount": 15, "quality_score": 35, "date": "07-11-2023"},
+              {"cases": 40, "pages": 35, "billed_hours": 40, "billed_amount": 20, "quality_score": 20, "date": "08-11-2023"},
+              {"cases": 35, "pages": 65, "billed_hours": 32, "billed_amount": 18, "quality_score": 35, "date": "09-11-2023"},
+              {"cases": 18, "pages": 30, "billed_hours": 10, "billed_amount": 25, "quality_score": 30, "date": "10-11-2023"}
+            ]
+        }
+    },
+      "efficiency":{
+        "Utilization Efficiency":{
+          "Tech Phantoms" : {
+            "Remya": [
+              {"actual_hours": 7, "after_qc": 10, "production_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":9, "after_qc": 8, "production_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "after_qc": 10, "production_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "after_qc": 7, "production_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Varun": [
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "after_qc": 8, "production_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "after_qc": 9, "production_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "after_qc": 8, "production_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "after_qc": 9, "production_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "after_qc": 7, "production_efficiency": 19, "date": "10-11-2023"}
+        ]
+          
+          },
+          "Med-Net Elites" :{
+            "Nisha": [
+              {"actual_hours": 7, "after_qc": 10, "production_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "after_qc": 8, "production_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "after_qc": 10, "production_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "after_qc": 7, "production_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Kiran": [
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "after_qc": 8, "production_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "after_qc": 9, "production_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "after_qc": 8, "production_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "after_qc": 9, "production_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "after_qc": 7, "production_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Fire Birds" :{
+            "Hari": [
+              {"actual_hours": 7, "after_qc": 10, "production_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "after_qc": 8, "production_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "after_qc": 10, "production_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "after_qc": 7, "production_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "after_qc": 8, "production_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "after_qc": 9, "production_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "after_qc": 8, "production_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "after_qc": 9, "production_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "after_qc": 7, "production_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Night Flyers" :{
+            "Hari": [
+              {"actual_hours": 7, "after_qc": 10, "production_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "after_qc": 8, "production_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "after_qc": 9, "production_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "after_qc": 10, "production_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "after_qc": 7, "production_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "after_qc": 8, "production_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "after_qc": 8, "production_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "after_qc": 9, "production_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "after_qc": 8, "production_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "after_qc": 8, "production_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "after_qc": 9, "production_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "after_qc": 10, "production_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "after_qc": 7, "production_efficiency": 19, "date": "10-11-2023"}
+        ]
+          }
+        },
+        "Ouality Efficiency":{
+          "Tech Phantoms" : {
+            "Remya": [
+              {"target": 7, "acheived": 10, "quality_efficiency": 12, "date": "01-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 10, "date": "02-11-2023"},
+              {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "03-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 11, "date": "04-11-2023"},
+              {"target":11, "acheived": 8, "quality_efficiency": 14, "date": "05-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 13, "date": "06-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 9, "date": "07-11-2023"},
+              {"target": 9, "acheived": 10, "quality_efficiency": 16, "date": "08-11-2023"},
+              {"target": 11, "acheived": 7, "quality_efficiency": 8, "date": "09-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Varun": [
+            {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "01-11-2023"},
+            {"target": 9, "acheived": 8, "quality_efficiency": 17, "date": "02-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 13, "date": "03-11-2023"},
+            {"target": 8, "acheived": 9, "quality_efficiency": 14, "date": "04-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 12, "date": "05-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 16, "date": "06-11-2023"},
+            {"target": 8, "acheived": 8, "quality_efficiency": 18, "date": "07-11-2023"},
+            {"target": 6, "acheived": 9, "quality_efficiency": 11, "date": "08-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 10, "date": "09-11-2023"},
+            {"target": 11, "acheived": 7, "quality_efficiency": 19, "date": "10-11-2023"}
+        ]
+          
+          },
+          "Med-Net Elites" :{
+            "Nisha": [
+              {"target": 7, "acheived": 10, "quality_efficiency": 12, "date": "01-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 10, "date": "02-11-2023"},
+              {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "03-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 11, "date": "04-11-2023"},
+              {"target":11, "acheived": 8, "quality_efficiency": 14, "date": "05-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 13, "date": "06-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 9, "date": "07-11-2023"},
+              {"target": 9, "acheived": 10, "quality_efficiency": 16, "date": "08-11-2023"},
+              {"target": 11, "acheived": 7, "quality_efficiency": 8, "date": "09-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Kiran": [
+            {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "01-11-2023"},
+            {"target": 9, "acheived": 8, "quality_efficiency": 17, "date": "02-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 13, "date": "03-11-2023"},
+            {"target": 8, "acheived": 9, "quality_efficiency": 14, "date": "04-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 12, "date": "05-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 16, "date": "06-11-2023"},
+            {"target": 8, "acheived": 8, "quality_efficiency": 18, "date": "07-11-2023"},
+            {"target": 6, "acheived": 9, "quality_efficiency": 11, "date": "08-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 10, "date": "09-11-2023"},
+            {"target": 11, "acheived": 7, "quality_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Fire Birds" :{
+            "Hari": [
+              {"target": 7, "acheived": 10, "quality_efficiency": 12, "date": "01-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 10, "date": "02-11-2023"},
+              {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "03-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 11, "date": "04-11-2023"},
+              {"target":11, "acheived": 8, "quality_efficiency": 14, "date": "05-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 13, "date": "06-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 9, "date": "07-11-2023"},
+              {"target": 9, "acheived": 10, "quality_efficiency": 16, "date": "08-11-2023"},
+              {"target": 11, "acheived": 7, "quality_efficiency": 8, "date": "09-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "01-11-2023"},
+            {"target": 9, "acheived": 8, "quality_efficiency": 17, "date": "02-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 13, "date": "03-11-2023"},
+            {"target": 8, "acheived": 9, "quality_efficiency": 14, "date": "04-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 12, "date": "05-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 16, "date": "06-11-2023"},
+            {"target": 8, "acheived": 8, "quality_efficiency": 18, "date": "07-11-2023"},
+            {"target": 6, "acheived": 9, "quality_efficiency": 11, "date": "08-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 10, "date": "09-11-2023"},
+            {"target": 11, "acheived": 7, "quality_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Night Flyers" :{
+            "Hari": [
+              {"target": 7, "acheived": 10, "quality_efficiency": 12, "date": "01-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 10, "date": "02-11-2023"},
+              {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "03-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 11, "date": "04-11-2023"},
+              {"target":11, "acheived": 8, "quality_efficiency": 14, "date": "05-11-2023"},
+              {"target": 8, "acheived": 9, "quality_efficiency": 13, "date": "06-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 9, "date": "07-11-2023"},
+              {"target": 9, "acheived": 10, "quality_efficiency": 16, "date": "08-11-2023"},
+              {"target": 11, "acheived": 7, "quality_efficiency": 8, "date": "09-11-2023"},
+              {"target": 10, "acheived": 8, "quality_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"target": 8, "acheived": 10, "quality_efficiency": 15, "date": "01-11-2023"},
+            {"target": 9, "acheived": 8, "quality_efficiency": 17, "date": "02-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 13, "date": "03-11-2023"},
+            {"target": 8, "acheived": 9, "quality_efficiency": 14, "date": "04-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 12, "date": "05-11-2023"},
+            {"target": 7, "acheived": 8, "quality_efficiency": 16, "date": "06-11-2023"},
+            {"target": 8, "acheived": 8, "quality_efficiency": 18, "date": "07-11-2023"},
+            {"target": 6, "acheived": 9, "quality_efficiency": 11, "date": "08-11-2023"},
+            {"target": 8, "acheived": 10, "quality_efficiency": 10, "date": "09-11-2023"},
+            {"target": 11, "acheived": 7, "quality_efficiency": 19, "date": "10-11-2023"}
+        ]
+          }
+        },
+        "Auditor Efficiency":{
+          "Tech Phantoms" : {
+            "Remya": [
+              {"allocated_hours": 7, "audited_hours": 10, "auditor_efficiency": 12, "date": "01-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "02-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "03-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 11, "date": "04-11-2023"},
+              {"allocated_hours":11, "audited_hours": 8, "auditor_efficiency": 14, "date": "05-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 13, "date": "06-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 9, "date": "07-11-2023"},
+              {"allocated_hours": 9, "audited_hours": 10, "auditor_efficiency": 16, "date": "08-11-2023"},
+              {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 8, "date": "09-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Varun": [
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "01-11-2023"},
+            {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 17, "date": "02-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 13, "date": "03-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 14, "date": "04-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 12, "date": "05-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 16, "date": "06-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 18, "date": "07-11-2023"},
+            {"allocated_hours": 6, "audited_hours": 9, "auditor_efficiency": 11, "date": "08-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 10, "date": "09-11-2023"},
+            {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 19, "date": "10-11-2023"}
+        ]
+          
+          },
+          "Med-Net Elites" :{
+            "Nisha": [
+              {"allocated_hours": 7, "audited_hours": 10, "auditor_efficiency": 12, "date": "01-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "02-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "03-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 11, "date": "04-11-2023"},
+              {"allocated_hours":11, "audited_hours": 8, "auditor_efficiency": 14, "date": "05-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 13, "date": "06-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 9, "date": "07-11-2023"},
+              {"allocated_hours": 9, "audited_hours": 10, "auditor_efficiency": 16, "date": "08-11-2023"},
+              {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 8, "date": "09-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Kiran": [
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "01-11-2023"},
+            {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 17, "date": "02-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 13, "date": "03-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 14, "date": "04-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 12, "date": "05-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 16, "date": "06-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 18, "date": "07-11-2023"},
+            {"allocated_hours": 6, "audited_hours": 9, "auditor_efficiency": 11, "date": "08-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 10, "date": "09-11-2023"},
+            {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Fire Birds" :{
+            "Hari": [
+              {"allocated_hours": 7, "audited_hours": 10, "auditor_efficiency": 12, "date": "01-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "02-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "03-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 11, "date": "04-11-2023"},
+              {"allocated_hours":11, "audited_hours": 8, "auditor_efficiency": 14, "date": "05-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 13, "date": "06-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 9, "date": "07-11-2023"},
+              {"allocated_hours": 9, "audited_hours": 10, "auditor_efficiency": 16, "date": "08-11-2023"},
+              {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 8, "date": "09-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "01-11-2023"},
+            {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 17, "date": "02-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 13, "date": "03-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 14, "date": "04-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 12, "date": "05-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 16, "date": "06-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 18, "date": "07-11-2023"},
+            {"allocated_hours": 6, "audited_hours": 9, "auditor_efficiency": 11, "date": "08-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 10, "date": "09-11-2023"},
+            {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Night Flyers" :{
+            "Hari": [
+              {"allocated_hours": 7, "audited_hours": 10, "auditor_efficiency": 12, "date": "01-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "02-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "03-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 11, "date": "04-11-2023"},
+              {"allocated_hours":11, "audited_hours": 8, "auditor_efficiency": 14, "date": "05-11-2023"},
+              {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 13, "date": "06-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 9, "date": "07-11-2023"},
+              {"allocated_hours": 9, "audited_hours": 10, "auditor_efficiency": 16, "date": "08-11-2023"},
+              {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 8, "date": "09-11-2023"},
+              {"allocated_hours": 10, "audited_hours": 8, "auditor_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 15, "date": "01-11-2023"},
+            {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 17, "date": "02-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 13, "date": "03-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 14, "date": "04-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 12, "date": "05-11-2023"},
+            {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 16, "date": "06-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 18, "date": "07-11-2023"},
+            {"allocated_hours": 6, "audited_hours": 9, "auditor_efficiency": 11, "date": "08-11-2023"},
+            {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 10, "date": "09-11-2023"},
+            {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 19, "date": "10-11-2023"}
+        ]
+          }
+        },
+        "Billing Efficiency":{
+          "Tech Phantoms" : {
+            "Remya": [
+              {"actual_hours": 7, "billed_hours": 10, "billing_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Varun": [
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-11-2023"}
+        ]
+          
+          },
+          "Med-Net Elites" :{
+            "Nisha": [
+              {"actual_hours": 7, "billed_hours": 10, "billing_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Kiran": [
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Fire Birds" :{
+            "Hari": [
+              {"actual_hours": 7, "billed_hours": 10, "billing_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-11-2023"}
+        ]
+          },
+          "Night Flyers" :{
+            "Hari": [
+              {"actual_hours": 7, "billed_hours": 10, "billing_efficiency": 12, "date": "01-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-11-2023"},
+              {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-11-2023"},
+              {"actual_hours":11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-11-2023"},
+              {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 9, "date": "07-11-2023"},
+              {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-11-2023"},
+              {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-11-2023"},
+              {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-11-2023"}
+          ],
+          "Jayam": [
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-11-2023"},
+            {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-11-2023"},
+            {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "05-11-2023"},
+            {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-11-2023"},
+            {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-11-2023"},
+            {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-11-2023"},
+            {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-11-2023"},
+            {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-11-2023"}
+        ]
+          }
+        }
+      },
+      "revenue":{
+        "Clients" :{
+          "LDTM001": [
+            {"gross_revenue": 1000, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 550, "date": "01-11-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "02-11-2023"},
+            {"gross_revenue": 1300, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "03-11-2023"},
+            {"gross_revenue": 1200, "commission": 150, "loyalty": 100, "referral": 100, "net_revenue": 850, "date": "04-11-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "05-11-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "06-11-2023"},
+            {"gross_revenue": 1400, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 950, "date": "07-11-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "08-11-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "09-11-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "10-11-2023"}
+          ]
+,          
+          "LDTM002": [
+            {"gross_revenue": 1700, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 1250, "date": "01-11-2023"},
+            {"gross_revenue": 1000, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 550, "date": "02-11-2023"},
+            {"gross_revenue": 1300, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "03-11-2023"},
+            {"gross_revenue": 1200, "commission": 150, "loyalty": 100, "referral": 100, "net_revenue": 850, "date": "04-11-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "05-11-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "06-11-2023"},
+            {"gross_revenue": 1400, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 950, "date": "07-11-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "08-11-2023"},
+            {"gross_revenue": 1000, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 550, "date": "09-11-2023"},
+            {"gross_revenue": 1100, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 550, "date": "10-11-2023"}
+          ]
+        }
+        ,
+        "Employees" :{
+          "Tech Phantoms" : {
+          "Remya": [
+            {"gross_revenue": 200, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 100, "date": "01-11-2023"},
+            {"gross_revenue": 300, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 200, "date": "02-11-2023"},
+            {"gross_revenue": 200, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 100, "date": "03-11-2023"},
+            {"gross_revenue": 400, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 300, "date": "04-11-2023"},
+            {"gross_revenue": 200, "commission": 30, "loyalty": 50, "referral": 0, "net_revenue": 120, "date": "05-11-2023"},
+            {"gross_revenue": 200, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 100, "date": "06-11-2023"},
+            {"gross_revenue": 300, "commission": 100, "loyalty": 50, "referral": 0, "net_revenue": 150, "date": "07-11-2023"},
+            {"gross_revenue": 200, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 100, "date": "08-11-2023"},
+            {"gross_revenue": 300, "commission": 50, "loyalty": 50, "referral": 50, "net_revenue": 150, "date": "09-11-2023"},
+            {"gross_revenue": 200, "commission": 50, "loyalty": 50, "referral": 0, "net_revenue": 100, "date": "10-11-2023"}
+        ],
+        "Varun": [
+          
+            {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "01-11-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 80, "date": "02-11-2023"},
+            {"gross_revenue": 90, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 45, "date": "03-11-2023"},
+            {"gross_revenue": 200, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 125, "date": "04-11-2023"},
+            {"gross_revenue": 120, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 70, "date": "05-11-2023"},
+            {"gross_revenue": 90, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "06-11-2023"},
+            {"gross_revenue": 180, "commission": 40, "loyalty": 40, "referral": 0, "net_revenue": 100, "date": "07-11-2023"},
+            {"gross_revenue": 100, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+            {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-11-2023"},
+            {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-11-2023"}
+          
+          
+      ]
+        
+        },
+        "Med-Net Elites" :{
+          "Nisha": [
+            
+              {"gross_revenue": 70, "commission": 15, "loyalty": 20, "referral": 0, "net_revenue": 35, "date": "01-11-2023"},
+              {"gross_revenue": 120, "commission": 25, "loyalty": 35, "referral": 0, "net_revenue": 60, "date": "02-11-2023"},
+              {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "03-11-2023"},
+              {"gross_revenue": 150, "commission": 30, "loyalty": 35, "referral": 0, "net_revenue": 85, "date": "04-11-2023"},
+              {"gross_revenue": 90, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 50, "date": "05-11-2023"},
+              {"gross_revenue": 80, "commission": 25, "loyalty": 35, "referral": 0, "net_revenue": 60, "date": "06-11-2023"},
+              {"gross_revenue": 140, "commission": 30, "loyalty": 35, "referral": 0, "net_revenue": 75, "date": "07-11-2023"},
+              {"gross_revenue": 90, "commission": 25, "loyalty": 25, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+              {"gross_revenue": 110, "commission": 25, "loyalty": 35, "referral": 15, "net_revenue": 60, "date": "09-11-2023"},
+              {"gross_revenue": 50, "commission": 10, "loyalty": 25, "referral": 0, "net_revenue": 15, "date": "10-11-2023"}
+            
+            
+        ],
+        "Kiran": [
+          
+            {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "01-11-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 80, "date": "02-11-2023"},
+            {"gross_revenue": 90, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 45, "date": "03-11-2023"},
+            {"gross_revenue": 200, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 125, "date": "04-11-2023"},
+            {"gross_revenue": 120, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 70, "date": "05-11-2023"},
+            {"gross_revenue": 90, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "06-11-2023"},
+            {"gross_revenue": 180, "commission": 40, "loyalty": 40, "referral": 0, "net_revenue": 100, "date": "07-11-2023"},
+            {"gross_revenue": 100, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+            {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-11-2023"},
+            {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-11-2023"}
+          
+          
+      ]
+        },
+        "Fire Birds" :{
+          "Hari": [
+            
+              {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "01-11-2023"},
+              {"gross_revenue": 150, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 80, "date": "02-11-2023"},
+              {"gross_revenue": 90, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 45, "date": "03-11-2023"},
+              {"gross_revenue": 200, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 125, "date": "04-11-2023"},
+              {"gross_revenue": 120, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 70, "date": "05-11-2023"},
+              {"gross_revenue": 90, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "06-11-2023"},
+              {"gross_revenue": 180, "commission": 40, "loyalty": 40, "referral": 0, "net_revenue": 100, "date": "07-11-2023"},
+              {"gross_revenue": 100, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+              {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-11-2023"},
+              {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-11-2023"}
+            
+            
+        ],
+        "Jayam": [
+          
+            {"gross_revenue": 70, "commission": 15, "loyalty": 20, "referral": 0, "net_revenue": 35, "date": "01-11-2023"},
+            {"gross_revenue": 120, "commission": 25, "loyalty": 35, "referral": 0, "net_revenue": 60, "date": "02-11-2023"},
+            {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "03-11-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 35, "referral": 0, "net_revenue": 85, "date": "04-11-2023"},
+            {"gross_revenue": 90, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 50, "date": "05-11-2023"},
+            {"gross_revenue": 80, "commission": 25, "loyalty": 35, "referral": 0, "net_revenue": 60, "date": "06-11-2023"},
+            {"gross_revenue": 140, "commission": 30, "loyalty": 35, "referral": 0, "net_revenue": 75, "date": "07-11-2023"},
+            {"gross_revenue": 90, "commission": 25, "loyalty": 25, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+            {"gross_revenue": 110, "commission": 25, "loyalty": 35, "referral": 15, "net_revenue": 60, "date": "09-11-2023"},
+            {"gross_revenue": 50, "commission": 10, "loyalty": 25, "referral": 0, "net_revenue": 15, "date": "10-11-2023"}
+          
+          
+      ]
+        },
+        "Night Flyers" :{
+          "Hari": [
+            
+              {"gross_revenue": 90, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "01-11-2023"},
+              {"gross_revenue": 130, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "02-11-2023"},
+              {"gross_revenue": 80, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 40, "date": "03-11-2023"},
+              {"gross_revenue": 160, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 85, "date": "04-11-2023"},
+              {"gross_revenue": 100, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "05-11-2023"},
+              {"gross_revenue": 80, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 50, "date": "06-11-2023"},
+              {"gross_revenue": 150, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 75, "date": "07-11-2023"},
+              {"gross_revenue": 100, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+              {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-11-2023"},
+              {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-11-2023"}
+            
+            
+        ],
+        "Jayam": [
+          
+            {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "01-11-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 80, "date": "02-11-2023"},
+            {"gross_revenue": 90, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 45, "date": "03-11-2023"},
+            {"gross_revenue": 200, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 125, "date": "04-11-2023"},
+            {"gross_revenue": 120, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 70, "date": "05-11-2023"},
+            {"gross_revenue": 90, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "06-11-2023"},
+            {"gross_revenue": 180, "commission": 40, "loyalty": 40, "referral": 0, "net_revenue": 100, "date": "07-11-2023"},
+            {"gross_revenue": 100, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "08-11-2023"},
+            {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-11-2023"},
+            {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-11-2023"}
+          
+          
+      ]
+        }}
+      
+}},
+
+"Preceeding Record" : {
+    "clients":{
+        "LDTM001": [
+            {"cases": 15, "pages": 18, "billed_hours": 25, "billed_amount": 12, "quality_score": 15, "date": "01-10-2023"},
+            {"cases": 50, "pages": 35, "billed_hours": 38, "billed_amount": 18, "quality_score": 32, "date": "02-10-2023"},
+            {"cases": 30, "pages": 32, "billed_hours": 30, "billed_amount": 32, "quality_score": 30, "date": "03-10-2023"},
+            {"cases": 55, "pages": 28, "billed_hours": 20, "billed_amount": 10, "quality_score": 28, "date": "04-10-2023"},
+            {"cases": 35, "pages": 20, "billed_hours": 15, "billed_amount": 20, "quality_score": 25, "date": "05-10-2023"},
+            {"cases": 70, "pages": 10, "billed_hours": 12, "billed_amount": 40, "quality_score": 38, "date": "06-10-2023"},
+            {"cases": 50, "pages": 12, "billed_hours": 22, "billed_amount": 15, "quality_score": 35, "date": "07-10-2023"},
+            {"cases": 40, "pages": 25, "billed_hours": 30, "billed_amount": 25, "quality_score": 40, "date": "08-10-2023"},
+            {"cases": 25, "pages": 15, "billed_hours": 18, "billed_amount": 30, "quality_score": 18, "date": "09-10-2023"},
+            {"cases": 70, "pages": 30, "billed_hours": 33, "billed_amount": 35, "quality_score": 30, "date": "10-10-2023"}
+          ],          
+          "LDTM002": [
+            {"cases": 32, "pages": 28, "billed_hours": 22, "billed_amount": 32, "quality_score": 40, "date": "01-10-2023"},
+            {"cases": 18, "pages": 12, "billed_hours": 18, "billed_amount": 16, "quality_score": 38, "date": "02-10-2023"},
+            {"cases": 25, "pages": 30, "billed_hours": 19, "billed_amount": 53, "quality_score": 35, "date": "03-10-2023"},
+            {"cases": 20, "pages": 20, "billed_hours": 18, "billed_amount": 28, "quality_score": 42, "date": "04-10-2023"},
+            {"cases": 30, "pages": 10, "billed_hours": 36, "billed_amount": 30, "quality_score": 37, "date": "05-10-2023"},
+            {"cases": 25, "pages": 15, "billed_hours": 23, "billed_amount": 22, "quality_score": 10, "date": "06-10-2023"},
+            {"cases": 22, "pages": 22, "billed_hours": 50, "billed_amount": 15, "quality_score": 25, "date": "07-10-2023"},
+            {"cases": 30, "pages": 25, "billed_hours": 40, "billed_amount": 20, "quality_score": 50, "date": "08-10-2023"},
+            {"cases": 35, "pages": 35, "billed_hours": 32, "billed_amount": 28, "quality_score": 65, "date": "09-10-2023"},
+            {"cases": 20, "pages": 30, "billed_hours": 10, "billed_amount": 15, "quality_score": 30, "date": "10-10-2023"}
+          ],
+          
+          "LDTM003": [
+            {"cases": 26, "pages": 36, "billed_hours": 22, "billed_amount": 32, "quality_score": 30, "date": "01-10-2023"},
+            {"cases": 14, "pages": 14, "billed_hours": 18, "billed_amount": 16, "quality_score": 68, "date": "02-10-2023"},
+            {"cases": 20, "pages": 20, "billed_hours": 19, "billed_amount": 53, "quality_score": 35, "date": "03-10-2023"},
+            {"cases": 16, "pages": 16, "billed_hours": 18, "billed_amount": 28, "quality_score": 42, "date": "04-10-2023"},
+            {"cases": 20, "pages": 22, "billed_hours": 36, "billed_amount": 30, "quality_score": 67, "date": "05-10-2023"},
+            {"cases": 16, "pages": 17, "billed_hours": 23, "billed_amount": 22, "quality_score": 10, "date": "06-10-2023"},
+            {"cases": 18, "pages": 18, "billed_hours": 50, "billed_amount": 15, "quality_score": 55, "date": "07-10-2023"},
+            {"cases": 20, "pages": 19, "billed_hours": 40, "billed_amount": 20, "quality_score": 50, "date": "08-10-2023"},
+            {"cases": 20, "pages": 16, "billed_hours": 32, "billed_amount": 28, "quality_score": 65, "date": "09-10-2023"},
+            {"cases": 14, "pages": 15, "billed_hours": 10, "billed_amount": 15, "quality_score": 30, "date": "10-10-2023"}
+          ],
+          
+          "LDTM004": [
+            {"cases": 35, "pages": 18, "billed_hours": 25, "billed_amount": 12, "quality_score": 15, "date": "01-10-2023"},
+            {"cases": 20, "pages": 35, "billed_hours": 38, "billed_amount": 18, "quality_score": 32, "date": "02-10-2023"},
+            {"cases": 30, "pages": 32, "billed_hours": 30, "billed_amount": 32, "quality_score": 30, "date": "03-10-2023"},
+            {"cases": 15, "pages": 28, "billed_hours": 20, "billed_amount": 10, "quality_score": 28, "date": "04-10-2023"},
+            {"cases": 25, "pages": 20, "billed_hours": 15, "billed_amount": 20, "quality_score": 25, "date": "05-10-2023"},
+            {"cases": 10, "pages": 10, "billed_hours": 12, "billed_amount": 40, "quality_score": 38, "date": "06-10-2023"},
+            {"cases": 30, "pages": 12, "billed_hours": 22, "billed_amount": 15, "quality_score": 35, "date": "07-10-2023"},
+            {"cases": 40, "pages": 25, "billed_hours": 30, "billed_amount": 25, "quality_score": 40, "date": "08-10-2023"},
+            {"cases": 25, "pages": 15, "billed_hours": 18, "billed_amount": 30, "quality_score": 18, "date": "09-10-2023"},
+            {"cases": 20, "pages": 30, "billed_hours": 33, "billed_amount": 35, "quality_score": 30, "date": "10-10-2023"}
+          ],
+        "LDTM005": [
+            {"cases": 32, "pages": 28, "billed_hours": 22, "billed_amount": 32, "quality_score": 20, "date": "01-10-2023"},
+            {"cases": 18, "pages": 12, "billed_hours": 18, "billed_amount": 16, "quality_score": 38, "date": "02-10-2023"},
+            {"cases": 25, "pages": 30, "billed_hours": 19, "billed_amount": 53, "quality_score": 35, "date": "03-10-2023"},
+            {"cases": 20, "pages": 20, "billed_hours": 18, "billed_amount": 28, "quality_score": 12, "date": "04-10-2023"},
+            {"cases": 30, "pages": 10, "billed_hours": 36, "billed_amount": 30, "quality_score": 37, "date": "05-10-2023"},
+            {"cases": 15, "pages": 15, "billed_hours": 23, "billed_amount": 22, "quality_score": 10, "date": "06-10-2023"},
+            {"cases": 22, "pages": 22, "billed_hours": 50, "billed_amount": 15, "quality_score": 25, "date": "07-10-2023"},
+            {"cases": 30, "pages": 25, "billed_hours": 40, "billed_amount": 20, "quality_score": 30, "date": "08-10-2023"},
+            {"cases": 35, "pages": 35, "billed_hours": 32, "billed_amount": 28, "quality_score": 25, "date": "09-10-2023"},
+            {"cases": 20, "pages": 30, "billed_hours": 10, "billed_amount": 15, "quality_score": 30, "date": "10-10-2023"}
+          ]
+      },
+      "employees":{
+        "All Teams":{},
+        "Tech Phantoms" : {
+            "shakthi":[
+              
+                {"cases": 21, "pages": 9, "billed_hours": 43, "billed_amount": 16, "quality_score": 52, "date": "01-10-2023"},
+                {"cases": 19, "pages": 52, "billed_hours": 23, "billed_amount": 31, "quality_score": 28, "date": "02-10-2023"},
+                {"cases": 32, "pages": 13, "billed_hours": 10, "billed_amount": 14, "quality_score": 28, "date": "03-10-2023"},
+                {"cases": 17, "pages": 22, "billed_hours": 63, "billed_amount": 21, "quality_score": 48, "date": "04-10-2023"},
+                {"cases": 35, "pages": 20, "billed_hours": 32, "billed_amount": 9, "quality_score": 19, "date": "05-10-2023"},
+                {"cases": 38, "pages": 33, "billed_hours": 8, "billed_amount": 7, "quality_score": 32, "date": "06-10-2023"},
+                {"cases": 31, "pages": 53, "billed_hours": 13, "billed_amount": 41, "quality_score": 29, "date": "07-10-2023"},
+                {"cases": 38, "pages": 39, "billed_hours": 31, "billed_amount": 14, "quality_score": 25, "date": "08-10-2023"},
+                {"cases": 40, "pages": 29, "billed_hours": 11, "billed_amount": 23, "quality_score": 39, "date": "09-10-2023"},
+                {"cases": 44, "pages": 33, "billed_hours": 23, "billed_amount": 31, "quality_score": 47, "date": "10-10-2023"}
+              
+              ],
+        "Ramya":[
+          
+            {"cases": 24, "pages": 34, "billed_hours": 21, "billed_amount": 35, "quality_score": 28, "date": "01-10-2023"},
+            {"cases": 12, "pages": 16, "billed_hours": 20, "billed_amount": 13, "quality_score": 66, "date": "02-10-2023"},
+            {"cases": 18, "pages": 20, "billed_hours": 20, "billed_amount": 51, "quality_score": 33, "date": "03-10-2023"},
+            {"cases": 13, "pages": 14, "billed_hours": 19, "billed_amount": 32, "quality_score": 38, "date": "04-10-2023"},
+            {"cases": 19, "pages": 24, "billed_hours": 35, "billed_amount": 32, "quality_score": 70, "date": "05-10-2023"},
+            {"cases": 34, "pages": 14, "billed_hours": 21, "billed_amount": 20, "quality_score": 14, "date": "06-10-2023"},
+            {"cases": 20, "pages": 16, "billed_hours": 49, "billed_amount": 14, "quality_score": 53, "date": "07-10-2023"},
+            {"cases": 17, "pages": 18, "billed_hours": 38, "billed_amount": 21, "quality_score": 49, "date": "08-10-2023"},
+            {"cases": 22, "pages": 14, "billed_hours": 34, "billed_amount": 27, "quality_score": 61, "date": "09-10-2023"},
+            {"cases": 17, "pages": 17, "billed_hours": 12, "billed_amount": 14, "quality_score": 28, "date": "10-10-2023"}
+          
+          
+        ],
+        "Ani":[
+          {"cases": 14, "pages": 16, "billed_hours": 28, "billed_amount": 13, "quality_score": 19, "date": "01-10-2023"},
+          {"cases": 23, "pages": 36, "billed_hours": 41, "billed_amount": 16, "quality_score": 30, "date": "02-10-2023"},
+          {"cases": 32, "pages": 30, "billed_hours": 33, "billed_amount": 30, "quality_score": 33, "date": "03-10-2023"},
+          {"cases": 12, "pages": 24, "billed_hours": 20, "billed_amount": 8, "quality_score": 30, "date": "04-10-2023"},
+          {"cases": 23, "pages": 19, "billed_hours": 16, "billed_amount": 23, "quality_score": 22, "date": "05-10-2023"},
+          {"cases": 12, "pages": 10, "billed_hours": 10, "billed_amount": 43, "quality_score": 36, "date": "06-10-2023"},
+          {"cases": 28, "pages": 13, "billed_hours": 23, "billed_amount": 17, "quality_score": 32, "date": "07-10-2023"},
+          {"cases": 38, "pages": 28, "billed_hours": 35, "billed_amount": 28, "quality_score": 43, "date": "08-10-2023"},
+          {"cases": 22, "pages": 14, "billed_hours": 21, "billed_amount": 35, "quality_score": 15, "date": "09-10-2023"},
+          {"cases": 18, "pages": 31, "billed_hours": 30, "billed_amount": 32, "quality_score": 27, "date": "10-10-2023"}
+        ]
+        
+        },
+        "Med-Net Elites" : {   
+          "Arun":[
+            {"cases": 14, "pages": 16, "billed_hours": 28, "billed_amount": 13, "quality_score": 19, "date": "01-10-2023"},
+            {"cases": 23, "pages": 36, "billed_hours": 41, "billed_amount": 16, "quality_score": 30, "date": "02-10-2023"},
+            {"cases": 32, "pages": 30, "billed_hours": 33, "billed_amount": 30, "quality_score": 33, "date": "03-10-2023"},
+            {"cases": 12, "pages": 24, "billed_hours": 20, "billed_amount": 8, "quality_score": 30, "date": "04-10-2023"},
+            {"cases": 23, "pages": 19, "billed_hours": 16, "billed_amount": 23, "quality_score": 22, "date": "05-10-2023"},
+            {"cases": 12, "pages": 10, "billed_hours": 10, "billed_amount": 43, "quality_score": 36, "date": "06-10-2023"},
+            {"cases": 28, "pages": 13, "billed_hours": 23, "billed_amount": 17, "quality_score": 32, "date": "07-10-2023"},
+            {"cases": 38, "pages": 28, "billed_hours": 35, "billed_amount": 28, "quality_score": 43, "date": "08-10-2023"},
+            {"cases": 22, "pages": 14, "billed_hours": 21, "billed_amount": 35, "quality_score": 15, "date": "09-10-2023"},
+            {"cases": 18, "pages": 31, "billed_hours": 30, "billed_amount": 32, "quality_score": 27, "date": "10-10-2023"}
+          ]
+          ,
+          "Nick":[
+            {"cases": 20, "pages": 8, "billed_hours": 40, "billed_amount": 16, "quality_score": 52, "date": "01-10-2023"},
+            {"cases": 19, "pages": 22, "billed_hours": 24, "billed_amount": 30, "quality_score": 64, "date": "02-10-2023"},
+            {"cases": 31, "pages": 13, "billed_hours": 18, "billed_amount": 23, "quality_score": 23, "date": "03-10-2023"},
+            {"cases": 20, "pages": 23, "billed_hours": 21, "billed_amount": 17, "quality_score": 48, "date": "04-10-2023"},
+            {"cases": 29, "pages": 16, "billed_hours": 32, "billed_amount": 8, "quality_score": 16, "date": "05-10-2023"},
+            {"cases": 40, "pages": 34, "billed_hours": 9, "billed_amount": 27, "quality_score": 33, "date": "06-10-2023"},
+            {"cases": 27, "pages": 8, "billed_hours": 13, "billed_amount": 38, "quality_score": 56, "date": "07-10-2023"},
+            {"cases": 35, "pages": 38, "billed_hours": 26, "billed_amount": 18, "quality_score": 32, "date": "08-10-2023"},
+            {"cases": 40, "pages": 23, "billed_hours": 8, "billed_amount": 40, "quality_score": 32, "date": "09-10-2023"},
+            {"cases": 45, "pages": 30, "billed_hours": 18, "billed_amount": 30, "quality_score": 48, "date": "10-10-2023"}
+          ]
+          ,
+          "Nijo":[
+            {"cases": 30, "pages": 23, "billed_hours": 20, "billed_amount": 29, "quality_score": 32, "date": "01-10-2023"},
+            {"cases": 41, "pages": 36, "billed_hours": 30, "billed_amount": 13, "quality_score": 30, "date": "02-10-2023"},
+            {"cases": 38, "pages": 27, "billed_hours": 20, "billed_amount": 35, "quality_score": 36, "date": "03-10-2023"},
+            {"cases": 13, "pages": 22, "billed_hours": 5, "billed_amount": 16, "quality_score": 43, "date": "04-10-2023"},
+            {"cases": 40, "pages": 18, "billed_hours": 38, "billed_amount": 16, "quality_score": 40, "date": "05-10-2023"},
+            {"cases": 19, "pages": 10, "billed_hours": 25, "billed_amount": 45, "quality_score": 12, "date": "06-10-2023"},
+            {"cases": 35, "pages": 16, "billed_hours": 18, "billed_amount": 13, "quality_score": 38, "date": "07-10-2023"},
+            {"cases": 38, "pages": 23, "billed_hours": 42, "billed_amount": 21, "quality_score": 20, "date": "08-10-2023"},
+            {"cases": 33, "pages": 12, "billed_hours": 30, "billed_amount": 20, "quality_score": 23, "date": "09-10-2023"},
+            {"cases": 38, "pages": 29, "billed_hours": 9, "billed_amount": 26, "quality_score": 28, "date": "10-10-2023"}
+          ]
+          
+        },
+        "Firebirds" :{
+          
+            "Benisha": [
+              {"cases": 28, "pages": 11, "billed_hours": 38, "billed_amount": 15, "quality_score": 18, "date": "01-10-2023"},
+              {"cases": 18, "pages": 35, "billed_hours": 22, "billed_amount": 32, "quality_score": 33, "date": "02-10-2023"},
+              {"cases": 22, "pages": 20, "billed_hours": 10, "billed_amount": 10, "quality_score": 28, "date": "03-10-2023"},
+              {"cases": 15, "pages": 21, "billed_hours": 17, "billed_amount": 18, "quality_score": 25, "date": "04-10-2023"},
+              {"cases": 33, "pages": 20, "billed_hours": 35, "billed_amount": 8, "quality_score": 11, "date": "05-10-2023"},
+              {"cases": 23, "pages": 26, "billed_hours": 8, "billed_amount": 13, "quality_score": 27, "date": "06-10-2023"},
+              {"cases": 31, "pages": 31, "billed_hours": 16, "billed_amount": 42, "quality_score": 30, "date": "07-10-2023"},
+              {"cases": 37, "pages": 20, "billed_hours": 29, "billed_amount": 16, "quality_score": 20, "date": "08-10-2023"},
+              {"cases": 42, "pages": 27, "billed_hours": 12, "billed_amount": 30, "quality_score": 38, "date": "09-10-2023"},
+              {"cases": 27, "pages": 32, "billed_hours": 21, "billed_amount": 28, "quality_score": 21, "date": "10-10-2023"}
+            ],
+            "Nisha": [
+              {"cases": 19, "pages": 8, "billed_hours": 35, "billed_amount": 14, "quality_score": 45, "date": "01-10-2023"},
+              {"cases": 18, "pages": 17, "billed_hours": 20, "billed_amount": 29, "quality_score": 58, "date": "02-10-2023"},
+              {"cases": 25, "pages": 12, "billed_hours": 15, "billed_amount": 24, "quality_score": 20, "date": "03-10-2023"},
+              {"cases": 15, "pages": 18, "billed_hours": 20, "billed_amount": 15, "quality_score": 45, "date": "04-10-2023"},
+              {"cases": 27, "pages": 23, "billed_hours": 28, "billed_amount": 13, "quality_score": 18, "date": "05-10-2023"},
+              {"cases": 37, "pages": 32, "billed_hours": 12, "billed_amount": 27, "quality_score": 45, "date": "06-10-2023"},
+              {"cases": 27, "pages": 12, "billed_hours": 18, "billed_amount": 42, "quality_score": 60, "date": "07-10-2023"},
+              {"cases": 14, "pages": 43, "billed_hours": 25, "billed_amount": 15, "quality_score": 33, "date": "08-10-2023"},
+              {"cases": 37, "pages": 22, "billed_hours": 12, "billed_amount": 40, "quality_score": 38, "date": "09-10-2023"},
+              {"cases": 50, "pages": 32, "billed_hours": 25, "billed_amount": 32, "quality_score": 45, "date": "10-10-2023"}
+            ],
+            "Varun": [
+              {"cases": 23, "pages": 18, "billed_hours": 45, "billed_amount": 35, "quality_score": 32, "date": "01-10-2023"},
+              {"cases": 42, "pages": 43, "billed_hours": 26, "billed_amount": 14, "quality_score": 30, "date": "02-10-2023"},
+              {"cases": 38, "pages": 35, "billed_hours": 21, "billed_amount": 36, "quality_score": 37, "date": "03-10-2023"},
+              {"cases": 18, "pages": 28, "billed_hours": 13, "billed_amount": 23, "quality_score": 47, "date": "04-10-2023"},
+              {"cases": 47, "pages": 25, "billed_hours": 38, "billed_amount": 25, "quality_score": 32, "date": "05-10-2023"},
+              {"cases": 25, "pages": 16, "billed_hours": 21, "billed_amount": 27, "quality_score": 15, "date": "06-10-2023"},
+              {"cases": 36, "pages": 20, "billed_hours": 22, "billed_amount": 17, "quality_score": 40, "date": "07-10-2023"},
+              {"cases": 43, "pages": 29, "billed_hours": 42, "billed_amount": 22, "quality_score": 25, "date": "08-10-2023"},
+              {"cases": 38, "pages": 70, "billed_hours": 35, "billed_amount": 23, "quality_score": 28, "date": "09-10-2023"},
+              {"cases": 21, "pages": 35, "billed_hours": 12, "billed_amount": 30, "quality_score": 35, "date": "10-10-2023"}
+            ]
+          
+          
+        },
+        "Night Flyers" : {
+          
+            "Derick": [
+              {"cases": 23, "pages": 12, "billed_hours": 38, "billed_amount": 15, "quality_score": 18, "date": "01-10-2023"},
+              {"cases": 22, "pages": 38, "billed_hours": 25, "billed_amount": 28, "quality_score": 35, "date": "02-10-2023"},
+              {"cases": 12, "pages": 10, "billed_hours": 13, "billed_amount": 17, "quality_score": 30, "date": "03-10-2023"},
+              {"cases": 55, "pages": 24, "billed_hours": 9, "billed_amount": 22, "quality_score": 32, "date": "04-10-2023"},
+              {"cases": 29, "pages": 17, "billed_hours": 36, "billed_amount": 7, "quality_score": 10, "date": "05-10-2023"},
+              {"cases": 36, "pages": 30, "billed_hours": 21, "billed_amount": 10, "quality_score": 26, "date": "06-10-2023"},
+              {"cases": 30, "pages": 32, "billed_hours": 14, "billed_amount": 38, "quality_score": 33, "date": "07-10-2023"},
+              {"cases": 38, "pages": 22, "billed_hours": 32, "billed_amount": 16, "quality_score": 17, "date": "08-10-2023"},
+              {"cases": 13, "pages": 20, "billed_hours": 8, "billed_amount": 27, "quality_score": 22, "date": "09-10-2023"},
+              {"cases": 30, "pages": 32, "billed_hours": 22, "billed_amount": 28, "quality_score": 21, "date": "10-10-2023"}
+            ],
+            "Nisha": [
+              {"cases": 21, "pages": 8, "billed_hours": 38, "billed_amount": 16, "quality_score": 13, "date": "01-10-2023"},
+              {"cases": 18, "pages": 22, "billed_hours": 24, "billed_amount": 29, "quality_score": 70, "date": "02-10-2023"},
+              {"cases": 29, "pages": 10, "billed_hours": 15, "billed_amount": 24, "quality_score": 15, "date": "03-10-2023"},
+              {"cases": 18, "pages": 20, "billed_hours": 18, "billed_amount": 58, "quality_score": 52, "date": "04-10-2023"},
+              {"cases": 13, "pages": 16, "billed_hours": 36, "billed_amount": 15, "quality_score": 20, "date": "05-10-2023"},
+              {"cases": 42, "pages": 32, "billed_hours": 10, "billed_amount": 25, "quality_score": 32, "date": "06-10-2023"},
+              {"cases": 20, "pages": 8, "billed_hours": 17, "billed_amount": 45, "quality_score": 55, "date": "07-10-2023"},
+              {"cases": 20, "pages": 42, "billed_hours": 31, "billed_amount": 16, "quality_score": 35, "date": "08-10-2023"},
+              {"cases": 42, "pages": 23, "billed_hours": 12, "billed_amount": 41, "quality_score": 40, "date": "09-10-2023"},
+              {"cases": 60, "pages": 34, "billed_hours": 23, "billed_amount": 28, "quality_score": 43, "date": "10-10-2023"}
+            ],
+            "Kamal": [
+              {"cases": 22, "pages": 13, "billed_hours": 40, "billed_amount": 30, "quality_score": 30, "date": "01-10-2023"},
+              {"cases": 9, "pages": 38, "billed_hours": 30, "billed_amount": 15, "quality_score": 30, "date": "02-10-2023"},
+              {"cases": 36, "pages": 29, "billed_hours": 22, "billed_amount": 33, "quality_score": 40, "date": "03-10-2023"},
+              {"cases": 20, "pages": 22, "billed_hours": 5, "billed_amount": 13, "quality_score": 47, "date": "04-10-2023"},
+              {"cases": 45, "pages": 20, "billed_hours": 38, "billed_amount": 30, "quality_score": 27, "date": "05-10-2023"},
+              {"cases": 27, "pages": 18, "billed_hours": 23, "billed_amount": 28, "quality_score": 18, "date": "06-10-2023"},
+              {"cases": 36, "pages": 23, "billed_hours": 24, "billed_amount": 15, "quality_score": 45, "date": "07-10-2023"},
+              {"cases": 43, "pages": 32, "billed_hours": 44, "billed_amount": 20, "quality_score": 23, "date": "08-10-2023"},
+              {"cases": 38, "pages": 73, "billed_hours": 30, "billed_amount": 28, "quality_score": 28, "date": "09-10-2023"},
+              {"cases": 19, "pages": 34, "billed_hours": 10, "billed_amount": 35, "quality_score": 35, "date": "10-10-2023"}
+            ]
+          }
+          
+        
+    },
+      "efficiency":{
+        "Utilization Efficiency":{
+            "Tech Phantoms": {
+              "Remya": [
+                {"actual_hours": 11, "after_qc": 11, "production_efficiency": 11, "date": "01-10-2023"},
+                {"actual_hours": 14, "after_qc": 8, "production_efficiency": 9, "date": "02-10-2023"},
+                {"actual_hours": 12, "after_qc": 12, "production_efficiency": 16, "date": "03-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 9, "date": "04-10-2023"},
+                {"actual_hours": 12, "after_qc": 6, "production_efficiency": 13, "date": "05-10-2023"},
+                {"actual_hours": 7, "after_qc": 10, "production_efficiency": 14, "date": "06-10-2023"},
+                {"actual_hours": 11, "after_qc": 6, "production_efficiency": 8, "date": "07-10-2023"},
+                {"actual_hours": 10, "after_qc": 11, "production_efficiency": 14, "date": "08-10-2023"},
+                {"actual_hours": 13, "after_qc": 5, "production_efficiency": 6, "date": "09-10-2023"},
+                {"actual_hours": 12, "after_qc": 7, "production_efficiency": 19, "date": "10-10-2023"}
+              ],
+              "Varun": [
+                {"actual_hours": 11, "after_qc": 12, "production_efficiency": 17, "date": "01-10-2023"},
+                {"actual_hours": 7, "after_qc": 6, "production_efficiency": 15, "date": "02-10-2023"},
+                {"actual_hours": 5, "after_qc": 6, "production_efficiency": 11, "date": "03-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 13, "date": "04-10-2023"},
+                {"actual_hours": 8, "after_qc": 12, "production_efficiency": 11, "date": "05-10-2023"},
+                {"actual_hours": 5, "after_qc": 6, "production_efficiency": 14, "date": "06-10-2023"},
+                {"actual_hours": 7, "after_qc": 6, "production_efficiency": 16, "date": "07-10-2023"},
+                {"actual_hours": 5, "after_qc": 8, "production_efficiency": 9, "date": "08-10-2023"},
+                {"actual_hours": 7, "after_qc": 10, "production_efficiency": 8, "date": "09-10-2023"},
+                {"actual_hours": 10, "after_qc": 5, "production_efficiency": 20, "date": "10-10-2023"}
+              ]
+            },
+            "Med-Net Elites": {
+              "Nisha": [
+                {"actual_hours": 5, "after_qc": 8, "production_efficiency": 10, "date": "01-10-2023"},
+                {"actual_hours": 7, "after_qc": 6, "production_efficiency": 9, "date": "02-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 7, "after_qc": 6, "production_efficiency": 9, "date": "04-10-2023"},
+                {"actual_hours": 10, "after_qc": 5, "production_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 11, "date": "06-10-2023"},
+                {"actual_hours": 8, "after_qc": 7, "production_efficiency": 8, "date": "07-10-2023"},
+                {"actual_hours": 7, "after_qc": 10, "production_efficiency": 15, "date": "08-10-2023"},
+                {"actual_hours": 9, "after_qc": 5, "production_efficiency": 6, "date": "09-10-2023"},
+                {"actual_hours": 8, "after_qc": 7, "production_efficiency": 19, "date": "10-10-2023"}
+              ],
+              "Kiran": [
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 17, "date": "01-10-2023"},
+                {"actual_hours": 7, "after_qc": 6, "production_efficiency": 19, "date": "02-10-2023"},
+                {"actual_hours": 5, "after_qc": 7, "production_efficiency": 15, "date": "03-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 16, "date": "04-10-2023"},
+                {"actual_hours": 6, "after_qc": 9, "production_efficiency": 14, "date": "05-10-2023"},
+                {"actual_hours": 5, "after_qc": 7, "production_efficiency": 18, "date": "06-10-2023"},
+                {"actual_hours": 6, "after_qc": 7, "production_efficiency": 20, "date": "07-10-2023"},
+                {"actual_hours": 4, "after_qc": 8, "production_efficiency": 11, "date": "08-10-2023"},
+                {"actual_hours": 6, "after_qc": 9, "production_efficiency": 10, "date": "09-10-2023"},
+                {"actual_hours": 9, "after_qc": 5, "production_efficiency": 21, "date": "10-10-2023"}
+              ]
+            },
+            "Fire Birds": {
+              "Hari": [
+                {"actual_hours": 5, "after_qc": 8, "production_efficiency": 10, "date": "01-10-2023"},
+                {"actual_hours": 6, "after_qc": 7, "production_efficiency": 8, "date": "02-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 6, "after_qc": 7, "production_efficiency": 9, "date": "04-10-2023"},
+                {"actual_hours": 9, "after_qc": 6, "production_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 6, "after_qc": 7, "production_efficiency": 13, "date": "06-10-2023"},
+                {"actual_hours": 8, "after_qc": 6, "production_efficiency": 8, "date": "07-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 15, "date": "08-10-2023"},
+                {"actual_hours": 9, "after_qc": 5, "production_efficiency": 6, "date": "09-10-2023"},
+                {"actual_hours": 8, "after_qc": 6, "production_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 15, "date": "01-10-2023"},
+                {"actual_hours": 7, "after_qc": 6, "production_efficiency": 17, "date": "02-10-2023"},
+                {"actual_hours": 5, "after_qc": 7, "production_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 14, "date": "04-10-2023"},
+                {"actual_hours": 6, "after_qc": 9, "production_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 5, "after_qc": 7, "production_efficiency": 16, "date": "06-10-2023"},
+                {"actual_hours": 6, "after_qc": 7, "production_efficiency": 18, "date": "07-10-2023"},
+                {"actual_hours": 4, "after_qc": 8, "production_efficiency": 11, "date": "08-10-2023"},
+                {"actual_hours": 6, "after_qc": 9, "production_efficiency": 10, "date": "09-10-2023"},
+                {"actual_hours": 9, "after_qc": 5, "production_efficiency": 21, "date": "10-10-2023"}
+              ]
+            },
+            "Night Flyers": {
+              "Hari": [
+                {"actual_hours": 6, "after_qc": 9, "production_efficiency": 11, "date": "01-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 9, "date": "02-10-2023"},
+                {"actual_hours": 7, "after_qc": 9, "production_efficiency": 14, "date": "03-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 10, "date": "04-10-2023"},
+                {"actual_hours": 10, "after_qc": 7, "production_efficiency": 13, "date": "05-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 14, "date": "06-10-2023"},
+                {"actual_hours": 9, "after_qc": 7, "production_efficiency": 9, "date": "07-10-2023"},
+                {"actual_hours": 8, "after_qc": 10, "production_efficiency": 16, "date": "08-10-2023"},
+                {"actual_hours": 10, "after_qc": 6, "production_efficiency": 7, "date": "09-10-2023"},
+                {"actual_hours": 8, "after_qc": 7, "production_efficiency": 18, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"actual_hours": 7, "after_qc": 9, "production_efficiency": 13, "date": "01-10-2023"},
+                {"actual_hours": 8, "after_qc": 7, "production_efficiency": 15, "date": "02-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 11, "date": "03-10-2023"},
+                {"actual_hours": 7, "after_qc": 9, "production_efficiency": 12, "date": "04-10-2023"},
+                {"actual_hours": 7, "after_qc": 10, "production_efficiency": 10, "date": "05-10-2023"},
+                {"actual_hours": 6, "after_qc": 8, "production_efficiency": 14, "date": "06-10-2023"},
+                {"actual_hours": 7, "after_qc": 8, "production_efficiency": 16, "date": "07-10-2023"},
+                {"actual_hours": 5, "after_qc": 9, "production_efficiency": 9, "date": "08-10-2023"},
+                {"actual_hours": 7, "after_qc": 10, "production_efficiency": 8, "date": "09-10-2023"},
+                {"actual_hours": 10, "after_qc": 6, "production_efficiency": 19, "date": "10-10-2023"}
+              ]
+            
+          }
+          
+        },
+        "Ouality Efficiency":{
+            "Tech Phantoms": {
+              "Remya": [
+                {"target": 9, "achieved": 9, "quality_efficiency": 11, "date": "01-10-2023"},
+                {"target": 8, "achieved": 10, "quality_efficiency": 9, "date": "02-10-2023"},
+                {"target": 10, "achieved": 9, "quality_efficiency": 15, "date": "03-10-2023"},
+                {"target": 9, "achieved": 7, "quality_efficiency": 9, "date": "04-10-2023"},
+                {"target": 12, "achieved": 9, "quality_efficiency": 13, "date": "05-10-2023"},
+                {"target": 8, "achieved": 9, "quality_efficiency": 11, "date": "06-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 8, "date": "07-10-2023"},
+                {"target": 11, "achieved": 11, "quality_efficiency": 17, "date": "08-10-2023"},
+                {"target": 11, "achieved": 5, "quality_efficiency": 7, "date": "09-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 16, "date": "10-10-2023"}
+              ],
+              "Varun": [
+                {"target": 9, "achieved": 8, "quality_efficiency": 14, "date": "01-10-2023"},
+                {"target": 8, "achieved": 5, "quality_efficiency": 16, "date": "02-10-2023"},
+                {"target": 7, "achieved": 6, "quality_efficiency": 12, "date": "03-10-2023"},
+                {"target": 8, "achieved": 9, "quality_efficiency": 13, "date": "04-10-2023"},
+                {"target": 7, "achieved": 10, "quality_efficiency": 11, "date": "05-10-2023"},
+                {"target": 6, "achieved": 6, "quality_efficiency": 15, "date": "06-10-2023"},
+                {"target": 9, "achieved": 8, "quality_efficiency": 17, "date": "07-10-2023"},
+                {"target": 6, "achieved": 7, "quality_efficiency": 9, "date": "08-10-2023"},
+                {"target": 9, "achieved": 9, "quality_efficiency": 8, "date": "09-10-2023"},
+                {"target": 13, "achieved": 5, "quality_efficiency": 18, "date": "10-10-2023"}
+              ]
+            },
+            "Med-Net Elites": {
+              "Nisha": [
+                {"target": 9, "achieved": 9, "quality_efficiency": 11, "date": "01-10-2023"},
+                {"target": 8, "achieved": 8, "quality_efficiency": 8, "date": "02-10-2023"},
+                {"target": 10, "achieved": 9, "quality_efficiency": 13, "date": "03-10-2023"},
+                {"target": 9, "achieved": 7, "quality_efficiency": 9, "date": "04-10-2023"},
+                {"target": 12, "achieved": 8, "quality_efficiency": 12, "date": "05-10-2023"},
+                {"target": 9, "achieved": 8, "quality_efficiency": 11, "date": "06-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 6, "date": "07-10-2023"},
+                {"target": 11, "achieved": 10, "quality_efficiency": 15, "date": "08-10-2023"},
+                {"target": 11, "achieved": 6, "quality_efficiency": 6, "date": "09-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 15, "date": "10-10-2023"}
+              ],
+              "Kiran": [
+                {"target": 9, "achieved": 9, "quality_efficiency": 13, "date": "01-10-2023"},
+                {"target": 8, "achieved": 7, "quality_efficiency": 15, "date": "02-10-2023"},
+                {"target": 6, "achieved": 6, "quality_efficiency": 11, "date": "03-10-2023"},
+                {"target": 9, "achieved": 8, "quality_efficiency": 12, "date": "04-10-2023"},
+                {"target": 8, "achieved": 9, "quality_efficiency": 10, "date": "05-10-2023"},
+                {"target": 7, "achieved": 7, "quality_efficiency": 14, "date": "06-10-2023"},
+                {"target": 9, "achieved": 7, "quality_efficiency": 16, "date": "07-10-2023"},
+                {"target": 5, "achieved": 8, "quality_efficiency": 9, "date": "08-10-2023"},
+                {"target": 9, "achieved": 9, "quality_efficiency": 8, "date": "09-10-2023"},
+                {"target": 13, "achieved": 5, "quality_efficiency": 17, "date": "10-10-2023"}
+              ]
+            },
+            "Fire Birds": {
+              "Hari": [
+                {"target": 9, "achieved": 9, "quality_efficiency": 11, "date": "01-10-2023"},
+                {"target": 8, "achieved": 10, "quality_efficiency": 9, "date": "02-10-2023"},
+                {"target": 10, "achieved": 9, "quality_efficiency": 15, "date": "03-10-2023"},
+                {"target": 9, "achieved": 7, "quality_efficiency": 9, "date": "04-10-2023"},
+                {"target": 12, "achieved": 9, "quality_efficiency": 13, "date": "05-10-2023"},
+                {"target": 8, "achieved": 9, "quality_efficiency": 11, "date": "06-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 8, "date": "07-10-2023"},
+                {"target": 11, "achieved": 11, "quality_efficiency": 17, "date": "08-10-2023"},
+                {"target": 11, "achieved": 5, "quality_efficiency": 7, "date": "09-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 16, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"target": 9, "achieved": 8, "quality_efficiency": 14, "date": "01-10-2023"},
+                {"target": 8, "achieved": 5, "quality_efficiency": 16, "date": "02-10-2023"},
+                {"target": 7, "achieved": 6, "quality_efficiency": 12, "date": "03-10-2023"},
+                {"target": 8, "achieved": 9, "quality_efficiency": 13, "date": "04-10-2023"},
+                {"target": 7, "achieved": 10, "quality_efficiency": 11, "date": "05-10-2023"},
+                {"target": 6, "achieved": 6, "quality_efficiency": 15, "date": "06-10-2023"},
+                {"target": 9, "achieved": 8, "quality_efficiency": 17, "date": "07-10-2023"},
+                {"target": 6, "achieved": 7, "quality_efficiency": 9, "date": "08-10-2023"},
+                {"target": 9, "achieved": 9, "quality_efficiency": 8, "date": "09-10-2023"},
+                {"target": 13, "achieved": 5, "quality_efficiency": 18, "date": "10-10-2023"}
+              ]
+            },
+            "Night Flyers": {
+              "Hari": [
+                {"target": 9, "achieved": 9, "quality_efficiency": 11, "date": "01-10-2023"},
+                {"target": 8, "achieved": 8, "quality_efficiency": 8, "date": "02-10-2023"},
+                {"target": 10, "achieved": 9, "quality_efficiency": 13, "date": "03-10-2023"},
+                {"target": 9, "achieved": 7, "quality_efficiency": 9, "date": "04-10-2023"},
+                {"target": 12, "achieved": 8, "quality_efficiency": 12, "date": "05-10-2023"},
+                {"target": 9, "achieved": 8, "quality_efficiency": 11, "date": "06-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 6, "date": "07-10-2023"},
+                {"target": 11, "achieved": 10, "quality_efficiency": 15, "date": "08-10-2023"},
+                {"target": 11, "achieved": 6, "quality_efficiency": 6, "date": "09-10-2023"},
+                {"target": 11, "achieved": 7, "quality_efficiency": 15, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"target": 9, "achieved": 9, "quality_efficiency": 13, "date": "01-10-2023"},
+                {"target": 8, "achieved": 7, "quality_efficiency": 15, "date": "02-10-2023"},
+                {"target": 6, "achieved": 6, "quality_efficiency": 11, "date": "03-10-2023"},
+                {"target": 9, "achieved": 8, "quality_efficiency": 12, "date": "04-10-2023"},
+                {"target": 8, "achieved": 9, "quality_efficiency": 10, "date": "05-10-2023"},
+                {"target": 7, "achieved": 7, "quality_efficiency": 14, "date": "06-10-2023"},
+                {"target": 9, "achieved": 7, "quality_efficiency": 16, "date": "07-10-2023"},
+                {"target": 5, "achieved": 8, "quality_efficiency": 9, "date": "08-10-2023"},
+                {"target": 9, "achieved": 9, "quality_efficiency": 8, "date": "09-10-2023"},
+                {"target": 13, "achieved": 5, "quality_efficiency": 17, "date": "10-10-2023"}
+              ]
+            }
+          
+          
+        },
+        "Auditor Efficiency":{
+          
+            "Tech Phantoms": {
+              "Remya": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 11, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 10, "auditor_efficiency": 9, "date": "02-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 9, "auditor_efficiency": 15, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 9, "date": "04-10-2023"},
+                {"allocated_hours": 12, "audited_hours": 9, "auditor_efficiency": 13, "date": "05-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 11, "date": "06-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 8, "date": "07-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 11, "auditor_efficiency": 17, "date": "08-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 5, "auditor_efficiency": 7, "date": "09-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 16, "date": "10-10-2023"}
+              ],
+              "Varun": [
+                {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 14, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 5, "auditor_efficiency": 16, "date": "02-10-2023"},
+                {"allocated_hours": 7, "audited_hours": 6, "auditor_efficiency": 12, "date": "03-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 13, "date": "04-10-2023"},
+                {"allocated_hours": 7, "audited_hours": 10, "auditor_efficiency": 11, "date": "05-10-2023"},
+                {"allocated_hours": 6, "audited_hours": 6, "auditor_efficiency": 15, "date": "06-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 17, "date": "07-10-2023"},
+                {"allocated_hours": 6, "audited_hours": 7, "auditor_efficiency": 9, "date": "08-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 8, "date": "09-10-2023"},
+                {"allocated_hours": 13, "audited_hours": 5, "auditor_efficiency": 18, "date": "10-10-2023"}
+              ]
+            },
+            "Med-Net Elites": {
+              "Nisha": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 11, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 8, "date": "02-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 9, "auditor_efficiency": 13, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 9, "date": "04-10-2023"},
+                {"allocated_hours": 12, "audited_hours": 8, "auditor_efficiency": 12, "date": "05-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 11, "date": "06-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 6, "date": "07-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 10, "auditor_efficiency": 15, "date": "08-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 6, "auditor_efficiency": 6, "date": "09-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 15, "date": "10-10-2023"}
+              ],
+              "Kiran": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 13, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 7, "auditor_efficiency": 15, "date": "02-10-2023"},
+                {"allocated_hours": 6, "audited_hours": 6, "auditor_efficiency": 11, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 12, "date": "04-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "05-10-2023"},
+                {"allocated_hours": 7, "audited_hours": 7, "auditor_efficiency": 14, "date": "06-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 16, "date": "07-10-2023"},
+                {"allocated_hours": 5, "audited_hours": 8, "auditor_efficiency": 9, "date": "08-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 8, "date": "09-10-2023"},
+                {"allocated_hours": 13, "audited_hours": 5, "auditor_efficiency": 17, "date": "10-10-2023"}
+              ]
+            },
+            "Fire Birds": {
+              "Hari": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 11, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 10, "date": "02-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 9, "auditor_efficiency": 15, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 10, "date": "04-10-2023"},
+                {"allocated_hours": 12, "audited_hours": 8, "auditor_efficiency": 13, "date": "05-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 13, "date": "06-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 10, "date": "07-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 10, "auditor_efficiency": 17, "date": "08-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 6, "auditor_efficiency": 8, "date": "09-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 8, "auditor_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 13, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 7, "auditor_efficiency": 15, "date": "02-10-2023"},
+                {"allocated_hours": 6, "audited_hours": 6, "auditor_efficiency": 11, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 12, "date": "04-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "05-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 14, "date": "06-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 7, "auditor_efficiency": 18, "date": "07-10-2023"},
+                {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 11, "date": "08-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 10, "auditor_efficiency": 10, "date": "09-10-2023"},
+                {"allocated_hours": 12, "audited_hours": 8, "auditor_efficiency": 19, "date": "10-10-2023"}
+              ]
+            },
+            "Night Flyers": {
+              "Hari": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 11, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 8, "auditor_efficiency": 10, "date": "02-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 9, "auditor_efficiency": 15, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 10, "date": "04-10-2023"},
+                {"allocated_hours": 12, "audited_hours": 8, "auditor_efficiency": 13, "date": "05-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 13, "date": "06-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 7, "auditor_efficiency": 10, "date": "07-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 10, "auditor_efficiency": 17, "date": "08-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 6, "auditor_efficiency": 8, "date": "09-10-2023"},
+                {"allocated_hours": 11, "audited_hours": 8, "auditor_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"allocated_hours": 9, "audited_hours": 9, "auditor_efficiency": 13, "date": "01-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 7, "auditor_efficiency": 15, "date": "02-10-2023"},
+                {"allocated_hours": 6, "audited_hours": 6, "auditor_efficiency": 11, "date": "03-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 8, "auditor_efficiency": 12, "date": "04-10-2023"},
+                {"allocated_hours": 8, "audited_hours": 9, "auditor_efficiency": 10, "date": "05-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 7, "auditor_efficiency": 14, "date": "06-10-2023"},
+                {"allocated_hours": 10, "audited_hours": 7, "auditor_efficiency": 18, "date": "07-10-2023"},
+                {"allocated_hours": 7, "audited_hours": 8, "auditor_efficiency": 11, "date": "08-10-2023"},
+                {"allocated_hours": 9, "audited_hours": 10, "auditor_efficiency": 10, "date": "09-10-2023"},
+                {"allocated_hours": 12, "audited_hours": 8, "auditor_efficiency": 19, "date": "10-10-2023"}
+              ]
+            }
+          
+          
+        },
+        "Billing Efficiency":{
+          
+            "Tech Phantoms": {
+              "Remya": [
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "01-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "02-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 7, "billing_efficiency": 11, "date": "04-10-2023"},
+                {"actual_hours": 11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-10-2023"},
+                {"actual_hours": 10, "billed_hours": 6, "billing_efficiency": 9, "date": "07-10-2023"},
+                {"actual_hours": 9, "billed_hours": 9, "billing_efficiency": 16, "date": "08-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-10-2023"},
+                {"actual_hours": 10, "billed_hours": 6, "billing_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Varun": [
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-10-2023"},
+                {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-10-2023"},
+                {"actual_hours": 8, "billed_hours": 7, "billing_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-10-2023"},
+                {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-10-2023"},
+                {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-10-2023"},
+                {"actual_hours": 4, "billed_hours": 10, "billing_efficiency": 10, "date": "09-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-10-2023"}
+              ]
+            },
+            "Med-Net Elites": {
+              "Nisha": [
+                {"actual_hours": 7, "billed_hours": 10, "billing_efficiency": 12, "date": "01-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 14, "date": "05-10-2023"},
+                {"actual_hours": 8, "billed_hours": 4, "billing_efficiency": 13, "date": "06-10-2023"},
+                {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 9, "date": "07-10-2023"},
+                {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-10-2023"},
+                {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Kiran": [
+                {"actual_hours": 8, "billed_hours": 7, "billing_efficiency": 15, "date": "01-10-2023"},
+                {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-10-2023"},
+                {"actual_hours": 6, "billed_hours": 8, "billing_efficiency": 18, "date": "07-10-2023"},
+                {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-10-2023"}
+              ]
+            },
+            "Fire Birds": {
+              "Hari": [
+                {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 12, "date": "01-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-10-2023"},
+                {"actual_hours": 8, "billed_hours": 12, "billing_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-10-2023"},
+                {"actual_hours": 11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-10-2023"},
+                {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 9, "date": "07-10-2023"},
+                {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-10-2023"},
+                {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-10-2023"},
+                {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-10-2023"},
+                {"actual_hours": 6, "billed_hours": 10, "billing_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-10-2023"},
+                {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-10-2023"},
+                {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-10-2023"}
+              ]
+            },
+            "Night Flyers": {
+              "Hari": [
+                {"actual_hours": 7, "billed_hours": 10, "billing_efficiency": 12, "date": "01-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 10, "date": "02-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 11, "date": "04-10-2023"},
+                {"actual_hours": 11, "billed_hours": 8, "billing_efficiency": 14, "date": "05-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 13, "date": "06-10-2023"},
+                {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 9, "date": "07-10-2023"},
+                {"actual_hours": 9, "billed_hours": 10, "billing_efficiency": 16, "date": "08-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 8, "date": "09-10-2023"},
+                {"actual_hours": 10, "billed_hours": 8, "billing_efficiency": 17, "date": "10-10-2023"}
+              ],
+              "Jayam": [
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 15, "date": "01-10-2023"},
+                {"actual_hours": 9, "billed_hours": 8, "billing_efficiency": 17, "date": "02-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 13, "date": "03-10-2023"},
+                {"actual_hours": 8, "billed_hours": 9, "billing_efficiency": 14, "date": "04-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 12, "date": "05-10-2023"},
+                {"actual_hours": 7, "billed_hours": 8, "billing_efficiency": 16, "date": "06-10-2023"},
+                {"actual_hours": 8, "billed_hours": 8, "billing_efficiency": 18, "date": "07-10-2023"},
+                {"actual_hours": 6, "billed_hours": 9, "billing_efficiency": 11, "date": "08-10-2023"},
+                {"actual_hours": 8, "billed_hours": 10, "billing_efficiency": 10, "date": "09-10-2023"},
+                {"actual_hours": 11, "billed_hours": 7, "billing_efficiency": 19, "date": "10-10-2023"}
+              ]
+            }
+          
+          
+        }
+      },
+      "revenue":{
+        "Clients" :{
+          "LDTM001": [
+            {"gross_revenue": 1400, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 950, "date": "01-10-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "02-10-2023"},
+            {"gross_revenue": 1300, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "03-10-2023"},
+            {"gross_revenue": 1000, "commission": 150, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "04-10-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "05-10-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "06-10-2023"},
+            {"gross_revenue": 1300, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 850, "date": "07-10-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "08-10-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "09-10-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "10-10-2023"}
+          ]
+,          
+          "LDTM002": [
+            {"gross_revenue": 2000, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 1550, "date": "01-10-2023"},
+            {"gross_revenue": 1300, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 850, "date": "02-10-2023"},
+            {"gross_revenue": 1300, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "03-10-2023"},
+            {"gross_revenue": 1200, "commission": 150, "loyalty": 100, "referral": 100, "net_revenue": 850, "date": "04-10-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "05-10-2023"},
+            {"gross_revenue": 1400, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 950, "date": "06-10-2023"},
+            {"gross_revenue": 1300, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 850, "date": "07-10-2023"},
+            {"gross_revenue": 1100, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "08-10-2023"},
+            {"gross_revenue": 1200, "commission": 250, "loyalty": 100, "referral": 100, "net_revenue": 750, "date": "09-10-2023"},
+            {"gross_revenue": 1200, "commission": 350, "loyalty": 100, "referral": 100, "net_revenue": 650, "date": "10-10-2023"}
+          ]
+        
+        
+      },
+      "Employees" :{
+        "Tech Phantoms" : {
+        "Remya": [
+          
+            {"gross_revenue": 150, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 90, "date": "01-10-2023"},
+            {"gross_revenue": 250, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 130, "date": "02-10-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 90, "date": "03-10-2023"},
+            {"gross_revenue": 350, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 220, "date": "04-10-2023"},
+            {"gross_revenue": 150, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 100, "date": "05-10-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 90, "date": "06-10-2023"},
+            {"gross_revenue": 250, "commission": 50, "loyalty": 30, "referral": 0, "net_revenue": 170, "date": "07-10-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 90, "date": "08-10-2023"},
+            {"gross_revenue": 250, "commission": 30, "loyalty": 30, "referral": 30, "net_revenue": 140, "date": "09-10-2023"},
+            {"gross_revenue": 150, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 90, "date": "10-10-2023"}
+          
+          
+      ],
+      "Varun": [
+        
+        
+          {"gross_revenue": 100, "commission": 30, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "01-10-2023"},
+          {"gross_revenue": 130, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "02-10-2023"},
+          {"gross_revenue": 80, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 40, "date": "03-10-2023"},
+          {"gross_revenue": 160, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 85, "date": "04-10-2023"},
+          {"gross_revenue": 110, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 60, "date": "05-10-2023"},
+          {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 50, "date": "06-10-2023"},
+          {"gross_revenue": 140, "commission": 40, "loyalty": 40, "referral": 0, "net_revenue": 100, "date": "07-10-2023"},
+          {"gross_revenue": 80, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "08-10-2023"},
+          {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-10-2023"},
+          {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-10-2023"}
+        
+        
+        
+        
+    ]
+      
+      },
+      "Med-Net Elites" :{
+        "Nisha": [
+          {"gross_revenue": 50, "commission": 10, "loyalty": 15, "referral": 0, "net_revenue": 25, "date": "01-10-2023"},
+          {"gross_revenue": 100, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "02-10-2023"},
+          {"gross_revenue": 60, "commission": 10, "loyalty": 15, "referral": 0, "net_revenue": 40, "date": "03-10-2023"},
+          {"gross_revenue": 120, "commission": 25, "loyalty": 30, "referral": 0, "net_revenue": 65, "date": "04-10-2023"},
+          {"gross_revenue": 70, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 40, "date": "05-10-2023"},
+          {"gross_revenue": 60, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "06-10-2023"},
+          {"gross_revenue": 110, "commission": 25, "loyalty": 30, "referral": 0, "net_revenue": 55, "date": "07-10-2023"},
+          {"gross_revenue": 70, "commission": 20, "loyalty": 20, "referral": 0, "net_revenue": 30, "date": "08-10-2023"},
+          {"gross_revenue": 90, "commission": 20, "loyalty": 30, "referral": 15, "net_revenue": 50, "date": "09-10-2023"},
+          {"gross_revenue": 40, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 5, "date": "10-10-2023"}
+        ]
+        ,
+      "Kiran": [
+        {"gross_revenue": 60, "commission": 5, "loyalty": 15, "referral": 0, "net_revenue": 40, "date": "01-10-2023"},
+        {"gross_revenue": 120, "commission": 20, "loyalty": 25, "referral": 0, "net_revenue": 75, "date": "02-10-2023"},
+        {"gross_revenue": 70, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 45, "date": "03-10-2023"},
+        {"gross_revenue": 160, "commission": 30, "loyalty": 25, "referral": 0, "net_revenue": 105, "date": "04-10-2023"},
+        {"gross_revenue": 90, "commission": 5, "loyalty": 15, "referral": 0, "net_revenue": 70, "date": "05-10-2023"},
+        {"gross_revenue": 70, "commission": 20, "loyalty": 25, "referral": 0, "net_revenue": 60, "date": "06-10-2023"},
+        {"gross_revenue": 140, "commission": 25, "loyalty": 25, "referral": 0, "net_revenue": 90, "date": "07-10-2023"},
+        {"gross_revenue": 80, "commission": 15, "loyalty": 15, "referral": 0, "net_revenue": 30, "date": "08-10-2023"},
+        {"gross_revenue": 100, "commission": 20, "loyalty": 25, "referral": 10, "net_revenue": 50, "date": "09-10-2023"},
+        {"gross_revenue": 50, "commission": 5, "loyalty": 15, "referral": 0, "net_revenue": 20, "date": "10-10-2023"}
+      ]
+      
+      },
+      "Fire Birds" :{
+        "Hari": [
+          {"gross_revenue": 60, "commission": 5, "loyalty": 15, "referral": 0, "net_revenue": 40, "date": "01-10-2023"},
+          {"gross_revenue": 130, "commission": 25, "loyalty": 35, "referral": 0, "net_revenue": 70, "date": "02-10-2023"},
+          {"gross_revenue": 70, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 45, "date": "03-10-2023"},
+          {"gross_revenue": 160, "commission": 30, "loyalty": 35, "referral": 0, "net_revenue": 95, "date": "04-10-2023"},
+          {"gross_revenue": 100, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 60, "date": "05-10-2023"},
+          {"gross_revenue": 70, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "06-10-2023"},
+          {"gross_revenue": 150, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 90, "date": "07-10-2023"},
+          {"gross_revenue": 80, "commission": 20, "loyalty": 20, "referral": 0, "net_revenue": 40, "date": "08-10-2023"},
+          {"gross_revenue": 100, "commission": 25, "loyalty": 35, "referral": 15, "net_revenue": 55, "date": "09-10-2023"},
+          {"gross_revenue": 50, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 20, "date": "10-10-2023"}
+        ]
+,        
+      "Jayam": [
+        {"gross_revenue": 60, "commission": 10, "loyalty": 15, "referral": 0, "net_revenue": 35, "date": "01-10-2023"},
+        {"gross_revenue": 110, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 60, "date": "02-10-2023"},
+        {"gross_revenue": 70, "commission": 5, "loyalty": 15, "referral": 0, "net_revenue": 50, "date": "03-10-2023"},
+        {"gross_revenue": 140, "commission": 25, "loyalty": 30, "referral": 0, "net_revenue": 85, "date": "04-10-2023"},
+        {"gross_revenue": 80, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 50, "date": "05-10-2023"},
+        {"gross_revenue": 70, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 60, "date": "06-10-2023"},
+        {"gross_revenue": 130, "commission": 25, "loyalty": 30, "referral": 0, "net_revenue": 75, "date": "07-10-2023"},
+        {"gross_revenue": 80, "commission": 20, "loyalty": 15, "referral": 0, "net_revenue": 40, "date": "08-10-2023"},
+        {"gross_revenue": 100, "commission": 25, "loyalty": 30, "referral": 15, "net_revenue": 55, "date": "09-10-2023"},
+        {"gross_revenue": 40, "commission": 5, "loyalty": 20, "referral": 0, "net_revenue": 15, "date": "10-10-2023"}
+      ]
+      
+      },
+      "Night Flyers" :{
+        "Hari": [
+          {"gross_revenue": 80, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 40, "date": "01-10-2023"},
+          {"gross_revenue": 120, "commission": 25, "loyalty": 35, "referral": 0, "net_revenue": 60, "date": "02-10-2023"},
+          {"gross_revenue": 70, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 40, "date": "03-10-2023"},
+          {"gross_revenue": 150, "commission": 30, "loyalty": 35, "referral": 0, "net_revenue": 85, "date": "04-10-2023"},
+          {"gross_revenue": 90, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 50, "date": "05-10-2023"},
+          {"gross_revenue": 70, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "06-10-2023"},
+          {"gross_revenue": 140, "commission": 25, "loyalty": 30, "referral": 0, "net_revenue": 75, "date": "07-10-2023"},
+          {"gross_revenue": 90, "commission": 20, "loyalty": 15, "referral": 0, "net_revenue": 40, "date": "08-10-2023"},
+          {"gross_revenue": 110, "commission": 25, "loyalty": 35, "referral": 15, "net_revenue": 60, "date": "09-10-2023"},
+          {"gross_revenue": 60, "commission": 10, "loyalty": 20, "referral": 0, "net_revenue": 35, "date": "10-10-2023"}
+        ]
+        ,
+      "Jayam":[
+        {"gross_revenue": 90, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "01-10-2023"},
+        {"gross_revenue": 130, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 60, "date": "02-10-2023"},
+        {"gross_revenue": 80, "commission": 15, "loyalty": 25, "referral": 0, "net_revenue": 40, "date": "03-10-2023"},
+        {"gross_revenue": 160, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 85, "date": "04-10-2023"},
+        {"gross_revenue": 100, "commission": 20, "loyalty": 30, "referral": 0, "net_revenue": 50, "date": "05-10-2023"},
+        {"gross_revenue": 80, "commission": 30, "loyalty": 40, "referral": 0, "net_revenue": 50, "date": "06-10-2023"},
+        {"gross_revenue": 150, "commission": 35, "loyalty": 40, "referral": 0, "net_revenue": 75, "date": "07-10-2023"},
+        {"gross_revenue": 100, "commission": 30, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "08-10-2023"},
+        {"gross_revenue": 120, "commission": 30, "loyalty": 40, "referral": 20, "net_revenue": 70, "date": "09-10-2023"},
+        {"gross_revenue": 70, "commission": 15, "loyalty": 30, "referral": 0, "net_revenue": 40, "date": "10-10-2023"}
+      ]
+      
+      }}
+      }
+
+      
+          
+    
+        
+}},
+
+"service_record":{"services":{
+  "Medical Chronology":3,
+  "Narrative Summary":2,
+  "Deposition Summary":4,
+  "Demand Letter" : 5,
+  "Sorting & Indexing" : 3,
+  "Medical Opinion":4,
+  "Hyperlinking":3,
+  "Treatment Timeline":6
+}
+}
+}
